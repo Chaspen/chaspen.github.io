@@ -1,0 +1,37 @@
+html {
+    background-color: #3498db;
+}
+
+
+
+center {
+    font-family: 'Oswald';
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    text-decoration: inherit;
+}
+
+#background {
+    width: auto;
+    height: 1000px;
+    background: #ecf0f1;
+    border-radius: 10px
+}
+
+#greet {
+    font-family: 'PT Sans';
+    font-size: 15px;
+}
+
+#greet-1 {
+    padding-top: 15px;
+    font-family: 'PT Sans';
+    font-size: 15px;
+}
+
+
+
+
+
+

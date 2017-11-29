@@ -1,0 +1,13 @@
+html {
+    background-color: #008484;
+}
+
+div.taskbar {
+    background-color: #b5b5b5;
+    width: auto;
+    height: 90px;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+}

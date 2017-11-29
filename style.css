@@ -1,38 +1,15 @@
 html {
-    background-color: #3498db;
-    overflow: hidden;
+    background-color: black;
 }
 
-
-
-center {
-    font-family: 'Oswald';
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-size: 30px;
-    text-decoration: inherit;
+#win98 {
+    width: 78%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
-#background {
-    width: auto;
-    height: 1000px;
-    background: #ecf0f1;
-    border-radius: 10px
+#win95-sound {
+    display: none
 }
-
-#greet {
-    font-family: 'PT Sans';
-    font-size: 15px;
-}
-
-#greet-1 {
-    padding-top: 15px;
-    font-family: 'PT Sans';
-    font-size: 15px;
-}
-
-
-
-
-
 

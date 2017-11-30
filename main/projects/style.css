@@ -43,10 +43,10 @@ body {
 }
 
 #start-btn:active {
-    padding-top: 3px;
-    padding-left: 3px;
-    height: 23.5px;
-    width: 54.5px;
+    padding-top: 4px;
+    padding-left: 4px;
+    height: 23px;
+    width: 54px;
 }
 
 #TIME {
@@ -61,13 +61,6 @@ body {
 }
 
 #folder-proj {
-    padding-top: 20px;
-    padding-left: 20px;
-    width: 35px;
+    width: 50px;
     height: auto;
-}
-
-#projects-folder-txt {
-    font-size: 11px;
-    padding-left: 15px
 }

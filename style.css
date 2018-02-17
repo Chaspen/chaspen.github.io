@@ -1,15 +1,18 @@
 html {
-    background-color: black;
+  background-image: url("resource/image/paper-bg.png");
 }
 
-#win98 {
-    width: 78%;
-    height: auto;
-    display: block;
-    margin: auto;
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 90px;
+
 }
 
-#win95-sound {
-    display: none
+#title {
+  background-image: url("resource/image/title-bg-paper.png");
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
 }
-

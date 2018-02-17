@@ -1,5 +1,5 @@
 html {
-  background-image: url("resource/image/paper-bg.png");
+  background-color: #dfe6e9;
 }
 
 body {
@@ -14,7 +14,7 @@ h1 {
 }
 
 #title {
-  background-image: url("resource/image/title-bg-paper.png");
+  background-color: #d63031;
   height: auto;
   padding-top: 10px;
   padding-bottom: 10px;

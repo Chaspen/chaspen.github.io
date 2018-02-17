@@ -2,6 +2,10 @@ html {
   background-image: url("resource/image/paper-bg.png");
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   text-align: center;
   font-family: 'Playfair Display', serif;

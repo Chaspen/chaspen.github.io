@@ -1,3 +1,18 @@
+@font-face {
+    font-family: opsan;
+    src: url("resource/font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("resource/font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: monsterrat;
+    src: url("resource/font/Monsterrat-Regular.ttf");
+}
+
 html {
     background-color: #dfe6e9;
 }
@@ -7,37 +22,111 @@ body {
 }
 
 #title-card {
+    z-index: %1;
+    animation-duration: 2s;
     background: linear-gradient(to bottom right, #0984e3, #81ecec);
     height: auto;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     margin: 0;
     letter-spacing: 10
-    
 }
 
 #main-title {
-    letter-spacing: 5px;
+    animation-duration: 3s;
+    font-size: 90px;
+}
+
+@keyframes TitleCard-anim {
+    from {font-size: 1px;}
+    to {font-size 30px;}
+}
+
+#projects-list {
+    overflow: hidden;
+}
+
+#lol {
+    text-align: center;
 }
 
 #fs {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 250px;
+    font-size: 40px;
+    padding-top: 50px;
     text-align: center;
+}
+
+@keyframes fsHoverAnim {
+    from {font-size: 40px;}
+    to {font-size: 50px;}
+}
+
+@keyframes fsHoverFalseAnim {
+    from {font-size: 50px;}
+    to {font-size: 40px;}
+}
+
+#fs:hover {
+    animation-name: fsHoverAnim;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+
+#fs:not(:hover) {
+    animation-name: fsHoverFalseAnim;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+}
+
+#fs-desc {
+    font-size: 15px;
     padding-top: 20px;
-    padding-bottom: 20px
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #website {
+    font-size: 40px;
+    padding-top: 20px;
     text-align: center;
-    padding-bottom: 20px    
+}
+
+#website-desc {
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 #proj-title {
-    padding-top: 90px;
     text-align: center;
-    font-family: "Open Sans", sans-serjif;
-    font-size: 50px;
+    padding-top: 90px;
+    font-family: roboto , sans-serif;
+    font-size: 60px;
     font-weight: 900;
-    letter-spacing: 30px;
+    letter-spacing: 20px;
+}
+
+
+
+#proj-line {
+    height: 3px;
+    width: 600px;;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #0984e3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#proj-line-container {
+    padding-top: 50px;
 }
 
 h1 {
@@ -50,3 +139,179 @@ p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
+#tab {
+    display: flex;
+    border-spacing: 0px;
+    margin-top: 0px;
+    width: auto;
+    height: 50px;
+    background-color: #4834d4;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#lang-select {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+
+#flagUS {
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagJP {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagIT {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagICE {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagPORT {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagSP {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagCHIN {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagDUT {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagRUS {
+    margin-left: 10px;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagPOL {
+    margin-left: 10px;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagUK {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagDEN {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagGERM {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagFR {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagSWED {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagVIET {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagKOR {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagHEB {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagNOR {
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+
+
+
+

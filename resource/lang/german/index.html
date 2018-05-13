@@ -1,20 +1,43 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
     <head>
         <body>
-            <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway|Roboto" rel="stylesheet">
-            <link rel="stylesheet" type="text/css" href="style.css"/>
+            <link rel="stylesheet" type="text/css" href="../../../style.css"/>
             <script src="resource/lib/easter.js"></script>
-            <div id="title-card">
-                <h1 id="main-title">DIE WEB-ZONE</h1>
-                <p>Meine Seite für Projekte, und ab und zu ein Blogeintrag.</p>
+                <div id="title-card">
+                <div id="tab">
+                    <div id="lang-select">
+                        <img src="../../../resource/img/flag/us.svg" id="flagUS" onclick="location.href = '../../..';">
+                        <img src="../../../resource/img/flag/nl.svg" id="flagDUT" onclick="location.href = '../../../resource/lang/dutch';">
+                        <img src="../../../resource/img/flag/jp.svg" id="flagJP" onclick="location.href = '../../../resource/lang/japanese';">
+                        <img src="../../../resource/img/flag/dk.svg" id="flagDEN" onclick="location.href = '../../../resource/lang/danish';">
+                        <img src="../../../resource/img/flag/vn.svg" id="flagVIET" onclick="location.href = '../../../resource/lang/vietnamese;">
+                        <img src="../../../resource/img/flag/is.svg" id="flagICE" onclick="location.href = '../../../resource/lang/icelandic';">
+                        <img src="../../../resource/img/flag/fr.svg" id="flagFR" onclick="location.href = '../../../resource/lang/french';">
+                        <img src="../../../resource/img/flag/ua.svg" id="flagUK" onclick="location.href = '../../../resource/lang/ukrainian';">
+                        <img src="../../../resource/img/flag/kr.svg" id="flagKOR" onclick="location.href = '../../../resource/lang/korean';">
+                        <img src="../../../resource/img/flag/se.svg" id="flagSWED" onclick="location.href = '../../../resource/lang/swedish';">
+                        <img src="../../../resource/img/flag/no.svg" id="flagNOR" onclick="location.href = '../../../resource/lang/norwegian';">
+                        <img src="../../../resource/img/flag/il.svg" id="flagHEB" onclick="location.href = '../../../resource/lang/hebrew';">
+                        <img src="../../../resource/img/flag/pl.svg" id="flagPOL" onclick="location.href = '../../../resource/lang/polish';">
+                        <img src="../../../resource/img/flag/ru.svg" id="flagRUS" onclick="location.href = '../../../resource/lang/russian';">
+                        <img src="../../../resource/img/flag/it.svg" id="flagIT" onclick="location.href = '../../../resource/lang/itlaian';">
+                        <img src="../../../resource/img/flag/es.svg" id="flagSP" onclick="location.href = '../../../resource/lang/spanish';">
+                        <img src="../../../resource/img/flag/de.svg" id="flagGERM" onclick="location.href = '../../../resource/lang/german';">
+                    </div>
+                </div>
+                <h1 id="main-title">DIE WEBSEITE</h1>
+                <p>Meine Seite für Projekte und irgendwann Blogpost.</p>
             </div>
             <div id="proj-title">PROJEKTE</div>
+            <div id="proj-line-container">
+                <div id="proj-line"></div>
+            </div>
             <div id="projects-list">
-                <div id="fs">fur-shmup</div>
-                <div>Side Scrolling Action-Spiel ähnlich wie Cuphead und Metal Slug</div>
-                <div id="website">chaspen.github.io</div>
-                <div id="lol">test</div>
+                <div id="fs" onclick="location.href = 'https://github.com/Chaspen/fur-shmup'">fur-shmup</div>
+                <div id="fs-desc">Side Scroller Action Spiel ähnlich wie Cuphead und Metal Slug</div>
+                <div id="website" onclick="location.href = 'https://github.com/Chaspen/chaspen.github.io'">chaspen.github.io</div>
+                <div id="website-desc">Diese Seite!</div> 
             </div>
         </body>
     </head>

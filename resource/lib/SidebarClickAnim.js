@@ -1,3 +1,3 @@
-("#AbtMe").click(function() {
+("#AbtMe").onClick(function() {
     alert("FUCK").text());
 });

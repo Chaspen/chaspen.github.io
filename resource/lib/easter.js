@@ -1,4 +1,3 @@
-
 var allowedKeys = {
   37: 'left',
   38: 'up',

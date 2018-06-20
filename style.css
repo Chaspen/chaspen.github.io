@@ -17,23 +17,41 @@ html {
     background-color: #dfe6e9;
 }
 
+html::-webkit-scrollbar {
+    width: 0 !important
+}
+
 body {
     margin: 0;
 }
 
 #title-card {
-    animation-duration: 2s;
+    animation-name: TitCard;
+    animation-duration: 1.5s;
     background: linear-gradient(to bottom right, #0984e3, #81ecec);
-    height: auto;
+    height: 310px;
     padding-top: 0px;
     padding-bottom: 10px;
     margin: 0;
     letter-spacing: 10
 }
 
+@keyframes TitCard{
+    from {height: 0px;}
+    to {height: 310px;}
+}
+
 #main-title {
+    animation-name: TitleAnim;
     animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
     font-size: 90px;
+}
+
+@keyframes TitleAnim {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 @keyframes TitleCard-anim {
@@ -41,7 +59,21 @@ body {
     to {font-size 30px;}
 }
 
+@keyframes PJList {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes DescAnim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 #projects-list {
+    animation-name: PJList;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
     overflow: hidden;
 }
 
@@ -95,7 +127,23 @@ body {
     text-align: center;
 }
 
+@keyframes ProjTitleLineAnim {
+    from {
+        opacity: 0;
+        width: 0px;
+    }
+    to {
+        opacity: 1;
+        width: 600px;
+    }
+}
+
 #proj-title {
+    opacity: 0;
+    animation-name: ProjTitleAnim;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
     text-align: center;
     padding-top: 90px;
     font-family: monsterrat , sans-serif;
@@ -104,7 +152,18 @@ body {
     letter-spacing: 20px;
 }
 
+@keyframes ProjTitleAnim {
+    from {opacity 0;}
+    to {opacity: 1;}
+}
+
 #proj-line {
+    opacity: 0;
+    animation-name: ProjTitleLineAnim;
+    animation-duration: 1s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    text-align: center;
     height: 3px;
     width: 600px;;
     padding-left: 50px;
@@ -125,12 +184,19 @@ h1 {
 }
 
 p {
+    animation-name: DescAnim;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 #tab {
+    animation-name: TabAnim;
+    animation-duration: 1s;
     display: flex;
+    flex-wrap: nowrap;
     border-spacing: 0px;
     margin-top: 0px;
     width: auto;
@@ -141,13 +207,32 @@ p {
 }
 
 #lang-select {
+    animation-name: FlagsAnim;
+    display: block;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
+    padding-top: 8px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 8px;
-    padding-left: 30px;
+}
+
+@keyframes FlagsAnim {
+    from { opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes TabAnim {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 50px;
+    }
 }
 
 #flagUS {
+    animation-name: FlagUSAnim;
     cursor: pointer;
     transform-origin: center;
     transition:  transform .3s;
@@ -248,7 +333,7 @@ p {
     width: auto;
 }
 
-#flagchin:hover {
+#flagCHIN:hover {
     transform: scale(1.2);
 }
 
@@ -450,9 +535,174 @@ p {
     transform: scale(1.2);
 }
 
+#flagCZ {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagCZ:hover {
+    transform: scale(1.2);
+}
+
+#flagPHIL {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagPHIL:hover {
+    transform: scale(1.2);
+}
+
+#flagFIN {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagFIN:hover {
+    transform: scale(1.2);
+}
+
 #AbtMe {
     text-align: center;
     font-size: 12px;
+}
+
+#flagGEO {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagGEO:hover {
+    transform: scale(1.2);
+}
+
+#flagGRE {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagGRE:hover {
+    transform: scale(1.2);
+}
+
+#flagHIN {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagHIN:hover {
+    transform: scale(1.2);
+}
+
+#flagHUNG {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagHUNG:hover {
+    transform: scale(1.2);
+}
+
+#flagINDO {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagINDO:hover {
+    transform: scale(1.2);
+}
+
+#flagMAL {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagMAL:hover {
+    transform: scale(1.2);
+}
+
+#flagROM {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagROM:hover {
+    transform: scale(1.2);
+}
+
+#flagTURK {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagTURK:hover {
+    transform: scale(1.2);
 }
 
 #sidebar {
@@ -467,4 +717,3 @@ p {
     background-color: black;
     height: 280px;
 }
-

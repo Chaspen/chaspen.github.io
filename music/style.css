@@ -31,7 +31,7 @@ body {
     background: linear-gradient(to bottom right, #0984e3, #81ecec);
     height: 310px;
     padding-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
     margin: 0;
     letter-spacing: 10
 }
@@ -46,7 +46,7 @@ body {
     animation-duration: 3s;
     animation-fill-mode: backwards;
     animation-delay: 0.5s;
-    font-size: 90px;
+    font-size: 70px;
 }
 
 @keyframes TitleAnim {
@@ -69,117 +69,11 @@ body {
     to {opacity: 1;}
 }
 
-#projects-list {
-    animation-name: PJList;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    animation-fill-mode: backwards;
-    overflow: hidden;
-}
 
-#lol {
-    text-align: center;
-}
- 
-#fs {
-    transition: transform .3s;
-    font-family: monsterrat;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-    height: 80px;
-    width: 250px;
-    font-size: 40px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-#fs:hover {
-    transform: scale(1.1);
-}
-
-#fs-desc {
-    font-family: opsan;
-    font-size: 15px;
-    padding-top: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#website {
-    transition: transform .3s;
-    cursor: pointer;
-    font-family: monsterrat;
-    font-size: 40px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-#website:hover {
-    transform: scale(1.1);
-}
-
-#website-desc {
-    font-family: opsan;
-    font-size: 15px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-@keyframes ProjTitleLineAnim {
-    from {
-        opacity: 0;
-        width: 0px;
-    }
-    to {
-        opacity: 1;
-        width: 600px;
-    }
-}
-
-#proj-title {
-    opacity: 0;
-    animation-name: ProjTitleAnim;
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
-    text-align: center;
-    padding-top: 90px;
-    font-family: monsterrat , sans-serif;
-    font-size: 60px;
-    font-weight: 900;
-    letter-spacing: 20px;
-}
-
-@keyframes ProjTitleAnim {
-    from {opacity 0;}
-    to {opacity: 1;}
-}
-
-#proj-line {
-    opacity: 0;
-    animation-name: ProjTitleLineAnim;
-    animation-duration: 1s;
-    animation-delay: 1.6s;
-    animation-fill-mode: forwards;
-    text-align: center;
-    height: 3px;
-    width: 600px;;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: #0984e3;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#proj-line-container {
-    padding-top: 50px;
-}
 
 h1 {
     font-family: 'Robotoh', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 90px;
 }
 
@@ -188,7 +82,7 @@ p {
     animation-duration: 1s;
     animation-fill-mode: backwards;
     animation-delay: 1s;
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -705,7 +599,90 @@ p {
     transform: scale(1.2);
 }
 
+#sidebar {
+    float: left;
+    background-color: #00cec9;
+    height: 1000px;
+    width: 300px;
+    
+}
+
 #SBTop {
     background-color: black;
     height: 280px;
 }
+
+#music-list {
+    padding-top: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#gorillaz1 {
+
+}
+
+#gorillaz2 {
+    
+}
+
+#gorillaz3 {
+    
+}
+
+#gorillaz4 {
+    
+}
+
+#gorillaz5 {
+    
+}
+
+#gorillaz6 {
+    
+}
+
+#gorillaz7 {
+    
+}
+
+#gorillaz8 {
+    
+}
+
+#david1 {
+    
+}
+
+#david2 {
+    
+}
+
+#david3 {
+    
+}
+
+#david4 {
+    
+}
+
+#feverGhost1 {
+    
+}
+
+#feverGhost2 {
+    
+}
+
+#feverGhost3 {
+    
+}
+
+#feverGhost4 {
+    
+}
+
+#TDCC {
+    
+}
+

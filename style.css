@@ -108,6 +108,7 @@ body {
 }
 
 #website {
+    
     transition: transform .3s;
     cursor: pointer;
     font-family: monsterrat;
@@ -136,6 +137,7 @@ body {
         opacity: 1;
         width: 600px;
     }
+    
 }
 
 #proj-title {
@@ -277,36 +279,6 @@ p {
     transform: scale(1.2);
 }
 
-#flagICE {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagICE:hover {
-    transform: scale(1.2);
-}
-
-#flagPORT {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagPORT:hover {
-    transform: scale(1.2);
-}
-
 #flagSP {
     cursor: pointer;
     transform-origin: center;
@@ -336,8 +308,6 @@ p {
 #flagCHIN:hover {
     transform: scale(1.2);
 }
-
-
 
 #flagDUT {
     cursor: pointer;
@@ -383,21 +353,6 @@ p {
 }
 
 #flagPOL:hover {
-    transform: scale(1.2);
-}
-
-#flagUK {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagUK:hover {
     transform: scale(1.2);
 }
 
@@ -505,21 +460,6 @@ p {
     transform: scale(1.2);
 }
 
-#flagNOR {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagNOR:hover {
-    transform: scale(1.2);
-}
-
 #flagDUT {
     cursor: pointer;
     transform-origin: center;
@@ -550,21 +490,6 @@ p {
     transform: scale(1.2);
 }
 
-#flagPHIL {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagPHIL:hover {
-    transform: scale(1.2);
-}
-
 #flagFIN {
     cursor: pointer;
     transform-origin: center;
@@ -583,21 +508,6 @@ p {
 #AbtMe {
     text-align: center;
     font-size: 12px;
-}
-
-#flagGEO {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagGEO:hover {
-    transform: scale(1.2);
 }
 
 #flagGRE {
@@ -630,66 +540,6 @@ p {
     transform: scale(1.2);
 }
 
-#flagHUNG {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagHUNG:hover {
-    transform: scale(1.2);
-}
-
-#flagINDO {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagINDO:hover {
-    transform: scale(1.2);
-}
-
-#flagMAL {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagMAL:hover {
-    transform: scale(1.2);
-}
-
-#flagROM {
-    cursor: pointer;
-    transform-origin: center;
-    transition:  transform .3s;
-    margin-left: 10px;
-    border: 1px, solid transparent;
-    border-radius: 5px;
-    height: 32px;
-    width: auto;
-}
-
-#flagROM:hover {
-    transform: scale(1.2);
-}
-
 #flagTURK {
     cursor: pointer;
     transform-origin: center;
@@ -709,3 +559,63 @@ p {
     background-color: black;
     height: 280px;
 }
+
+#sidebar {
+    height: 900px;
+    width: 300px;
+    background-color: #bdc3c7;
+    float: left;
+    position:
+}
+
+#line1 {
+    margin-left:20px;
+    margin-top: 7px;
+    height: 5px;
+    width: 50px;
+    background-color: aquamarine;
+}
+
+#line2 {
+    margin-left:20px;
+    margin-top: 7px;
+    height: 5px;
+    width: 50px;
+    background-color: aquamarine;
+}
+
+#line3 {
+    margin-left:20px;
+    margin-top: 7px;
+    height: 5px;
+    width: 50px;
+    background-color: aquamarine;
+}
+
+#SideBTN {
+    position: fixed;
+    cursor: pointer;
+}
+
+#pfp {
+    display: block;
+    height: 230px;
+    width: auto;
+    border-radius: 300px;
+    border-style: solid;
+    border-color: #bdc3c7;
+}
+
+#pfpContain {
+    position: absolute;
+    margin-left: 35px;
+    padding-top: 35px;
+}
+
+#halfFill {
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    background-color: #2f3640;
+}
+

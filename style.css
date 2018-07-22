@@ -1,3 +1,4 @@
+/* load font START*/
 @font-face {
     font-family: opsan;
     src: url("resource/font/OpenSans-Regular.ttf");
@@ -12,20 +13,19 @@
     font-family: monsterrat;
     src: url("resource/font/Montserrat-Regular.ttf");
 }
-
+/* load font END*/
 html {
     background-color: #dfe6e9;
 }
-
+/* hides scroll bar so page looks better */
 html::-webkit-scrollbar {
     width: 0 !important
 }
-
 body {
     position: relative;
     margin: 0;
 }
-
+/* MAIN COL START */
 #main-col {
     padding-left:300px;
 }
@@ -52,6 +52,14 @@ body {
     animation-fill-mode: backwards;
     animation-delay: 0.5s;
     font-size: 90px;
+}
+
+#main-titleJP { /* This div is only for the Japanese page. The font on the japanese page moves the desc text down for some reason and it doesnt look right */
+    animation-name: TitleAnim;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
+    font-size: 80px;
 }
 
 @keyframes TitleAnim {
@@ -136,6 +144,54 @@ body {
     text-align: center;
 }
 
+#chasbot {
+    height: 60px;
+    width: 600px;
+    transition: transform .3s;
+    cursor: pointer;
+    font-family: monsterrat;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#chasbot:hover {
+    transform: scale(1.1);
+}
+
+#chasbot-desc {
+    font-family: opsan;
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#ccus {
+    height: 60px;
+    width: 600px;
+    transition: transform .3s;
+    cursor: pointer;
+    font-family: monsterrat;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#ccus:hover {
+    transform: scale(1.1);
+}
+
+#ccus-desc {
+    font-family: opsan;
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+}
+
 @keyframes ProjTitleLineAnim {
     from {
         opacity: 0;
@@ -202,6 +258,10 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+#mainDescJP {
+    padding: 
+}
+
 #tab {
     animation-name: TabAnim;
     animation-duration: 1s;
@@ -240,7 +300,7 @@ p {
         height: 50px;
     }
 }
-
+/* FLAG ANIMS START */
 #flagUS {
     animation-name: FlagUSAnim;
     cursor: pointer;
@@ -577,7 +637,7 @@ p {
 #flagARAB:hover {
     transform: scale(1.2);
 }
-
+/* MAIN COL END */
 #SBTop {
     background-color: black;
     height: 280px;

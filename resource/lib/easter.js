@@ -31,5 +31,5 @@ document.addEventListener('keydown', function(e) {
 
 function execEE() {
 
-  window.location = "https://www.youtube.com/watch?v=DnS-GtGkH88";
+  window.location = "https://www.youtube.com/watch?v=TJP_lB9McJ0";
 }

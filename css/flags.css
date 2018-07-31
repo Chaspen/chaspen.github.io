@@ -1,0 +1,337 @@
+/* FLAG ANIMS START */
+#flagUS {
+    animation-name: FlagUSAnim;
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagUS:hover {
+    transform: scale(1.2);
+}
+
+#flagJP {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagJP:hover {
+    transform: scale(1.2);
+}
+
+#flagIT {
+    cursor: pointer;
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagIT:hover {
+    transform: scale(1.2);
+}
+
+#flagSP {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagSP:hover {
+    transform: scale(1.2);
+}
+
+#flagCHIN {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagCHIN:hover {
+    transform: scale(1.2);
+}
+
+#flagDUT {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagUS:hover {
+    transform: scale(1.2);
+}
+
+#flagRUS {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagRUS:hover {
+    transform: scale(1.2);
+}
+
+#flagPOL {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagPOL:hover {
+    transform: scale(1.2);
+}
+
+#flagDEN {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagDEN:hover {
+    transform: scale(1.2);
+}
+
+#flagGERM {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagGERM:hover {
+    transform: scale(1.2);
+}
+
+#flagFR {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagFR:hover {
+    transform: scale(1.2);
+}
+
+#flagSWED {
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagSWED:hover {
+    transform: scale(1.2);
+}
+
+#flagVIET {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagVIET:hover {
+    transform: scale(1.2);
+}
+
+#flagKOR {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagKOR:hover {
+    transform: scale(1.2);
+}
+
+#flagHEB {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagHEB:hover {
+    transform: scale(1.2);
+}
+
+#flagDUT {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagDUT:hover {
+    transform: scale(1.2);
+}
+
+#flagCZ {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagCZ:hover {
+    transform: scale(1.2);
+}
+
+#flagFIN {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagFIN:hover {
+    transform: scale(1.2);
+}
+
+#AbtMe {
+    text-align: center;
+    font-size: 12px;
+}
+
+#flagGRE {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagGRE:hover {
+    transform: scale(1.2);
+}
+
+#flagHIN {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagHIN:hover {
+    transform: scale(1.2);
+}
+
+#flagTURK {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagTURK:hover {
+    transform: scale(1.2);
+}
+
+#flagARAB {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagARAB:hover {
+    transform: scale(1.2);
+}

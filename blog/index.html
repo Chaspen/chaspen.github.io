@@ -2,11 +2,13 @@
 <!--whole HTML doc START-->
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../css/font.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/blog.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/lang.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/flags.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/sidebar.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../../css/font.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../../css/blog.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../../css/lang.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../../css/flags.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../../css/sidebar.css"/>
+        <script src="../resource/lib/jquery-3.3.1.min.js"></script>
+        <script src="../resource/lib/easter.js"></script>
     </head>
         <!--Sidebar to the left of the page START-->
     <div id="sidebar">
@@ -14,12 +16,20 @@
             <div id="pfpContain">
                 <img id="pfp" src="https://avatars3.githubusercontent.com/u/25672211?s=400&u=59df8e045802e26604cf7dd0287d055afe491ee0&v=4">
             <div id="MainSelect">
-                <div id="home">Home</div>
-                <div id="blog" onclick="location.href = 'blog'">Blog</div>
+                <div id="home" onclick="location.href = '../../../../';">Home</div>
+                <div id="blog">Blog</div>
             </div>
             <div id="addMe">
-                <img id="discord" src="../resource/img/AddMe/discord.png">
+                <img id="discord" src="../../../../resource/img/AddMe/discord.png">
                 <div id="discordTag">Chaspen#7382</div>
+                <img id="mastodon" src="../../../../resource/img/AddMe/mastodon.svg">
+                <div id="mastodonTag" onclick="location.href = 'https://mastodon.social/@Chaspen';">Chaspen@mastodon.social</div>
+                <img id="furfag"src="../../../../resource/img/AddMe/chitter.png">
+                <div id="furfagTag" onclick="location.href = 'https://chitter.xyz/@Chaspen';">Chaspen@chitter.xyz</div>
+                <img id="github"src="../../../../resource/img/AddMe/github.png">
+                <div id="githubTag" onclick="location.href = 'https://github.com/Chaspen';">Gabriel Ramos</div>
+                <img id="steam"src="../../../../resource/img/AddMe/steam.png">
+                <div id="steamTag" onclick="location.href = 'https://steamcommunity.com/profiles/76561198098269939/';">Chaspen</div>
             </div>
             </div>
         <div id="copyright">© 2018 Gabriel Ramos</div>
@@ -27,56 +37,76 @@
     <!--Sidebar to the left of the page END-->
     <body>
         <div id="main-col">
-            <script src="../resource/lib/easter.js"></script>
             <!--title-card element contains the main information such as the page name and some small info. -->
                 <div id="title-card">
                 <div id="tab">
                     <!--language select container-->
                     <div id="lang-select">
                         <!--flag images with onclicks to correspending language-->
-                        <img src="../resource/img/flag/us.svg" title="English" id="flagUS">
-                        <img src="../resource/img/flag/nl.svg" title="Nederlands"  id="flagDUT" onclick="location.href = '../resource/lang/dutch';">
-                        <img src="../resource/img/flag/jp.svg" title="日本語"  id="flagJP" onclick="location.href = '../resource/lang/japanese';">
-                        <img src="../resource/img/flag/dk.svg" title="Dansk"  id="flagDEN" onclick="location.href = '../resource/lang/danish';">
-                        <img src="../resource/img/flag/vn.svg" title="Tiếng Việt"  id="flagVIET" onclick="location.href = '../resource/lang/vietnamese';">
-                        <img src="../resource/img/flag/fr.svg" title="Français"  id="flagFR" onclick="location.href = '../resource/lang/french';">
-                        <img src="../resource/img/flag/kr.svg" title="한국어"  id="flagKOR" onclick="location.href = '../resource/lang/korean';">
-                        <img src="../resource/img/flag/se.svg" title="Svenska"  id="flagSWED" onclick="location.href = '../resource/lang/swedish';">
-                        <img src="../resource/img/flag/il.svg" title="עִברִית"  id="flagHEB" onclick="location.href = '../resource/lang/hebrew';">
-                        <img src="../resource/img/flag/pl.svg" title="Polskie"  id="flagPOL" onclick="location.href = '../resource/lang/polish';">
-                        <img src="../resource/img/flag/ru.svg" title="Pусский"  id="flagRUS" onclick="location.href = '../resource/lang/russian';">
-                        <img src="../resource/img/flag/it.svg" title="Italiano"  id="flagIT" onclick="location.href = '../resource/lang/italian';">
-                        <img src="../resource/img/flag/es.svg" title="Español"  id="flagSP" onclick="location.href = '../resource/lang/spanish';">
-                        <img src="../resource/img/flag/de.svg" title="Deutsch"  id="flagGERM" onclick="location.href = '../resource/lang/german';">
-                        <img src="../resource/img/flag/cn.svg" title="中文"  id="flagCHIN" onclick="location.href = '../resource/lang/chinese';">
-                        <img src="../resource/img/flag/cz.svg" title="čeština"  id="flagCZ" onclick="location.href = '../resource/lang/czech';">
-                        <img src="../resource/img/flag/fi.svg" title="Suomalainen"  id="flagFIN" onclick="location.href = '../resource/lang/finnish';">
-                        <img src="../resource/img/flag/gr.svg" title="Ελληνικά"  id="flagGRE" onclick="location.href = '../resource/lang/greek';">
-                            <img src="../resource/img/flag/in.svg" title="हिंदी"  id="flagHIN" onclick="location.href = '../resource/lang/hindi';">
-                        <img src="../resource/img/flag/tr.svg" title="Türk"  id="flagTURK" onclick="location.href = '../resource/lang/turkish';">
-                        <img src="../resource/img/flag/qa.svg" title="عربى"  id="flagARAB" onclick="location.href = '../resource/lang/arabic';">
+                        <img src="../../../../resource/img/flag/gb.svg" title="English" id="flagUK">
+                        <img src="../../../../resource/img/flag/nl.svg" title="Nederlands"  id="flagDUT" onclick="location.href = 'resource/lang/dutch';">
+                        <img src="../../../../resource/img/flag/jp.svg" title="日本語"  id="flagJP" onclick="location.href = 'resource/lang/japanese';">
+                        <img src="../../../../resource/img/flag/dk.svg" title="Dansk"  id="flagDEN" onclick="location.href = 'resource/lang/danish';">
+                        <img src="../../../../resource/img/flag/vn.svg" title="Tiếng Việt"  id="flagVIET" onclick="location.href = 'resource/lang/vietnamese';">
+                        <img src="../../../../resource/img/flag/fr.svg" title="Français"  id="flagFR" onclick="location.href = 'resource/lang/french';">
+                        <img src="../../../../resource/img/flag/kr.svg" title="한국어"  id="flagKOR" onclick="location.href = 'resource/lang/korean';">
+                        <img src="../../../../resource/img/flag/se.svg" title="Svenska"  id="flagSWED" onclick="location.href = 'resource/lang/swedish';">
+                        <img src="../../../../resource/img/flag/pl.svg" title="Polskie"  id="flagPOL" onclick="location.href = 'resource/lang/polish';">
+                        <img src="../../../../resource/img/flag/ru.svg" title="Pусский"  id="flagRUS" onclick="location.href = 'resource/lang/russian';">
+                        <img src="../../../../resource/img/flag/it.svg" title="Italiano"  id="flagIT" onclick="location.href = 'resource/lang/italian';">
+                        <img src="../../../../resource/img/flag/es.svg" title="Español"  id="flagSP" onclick="location.href = 'resource/lang/spanish';">
+                        <img src="../../../../resource/img/flag/de.svg" title="Deutsch"  id="flagGERM" onclick="location.href = 'resource/lang/german';">
+                        <img src="../../../../resource/img/flag/cn.svg" title="中文"  id="flagCHIN" onclick="location.href = 'resource/lang/chinese';">
+                        <img src="../../../../resource/img/flag/cz.svg" title="čeština"  id="flagCZ" onclick="location.href = 'resource/lang/czech';">
+                        <img src="../../../../resource/img/flag/fi.svg" title="Suomalainen"  id="flagFIN" onclick="location.href = 'resource/lang/finnish';">
+                        <img src="../../../../resource/img/flag/gr.svg" title="Ελληνικά"  id="flagGRE" onclick="location.href = 'resource/lang/greek';">
+                        <img src="../../../../resource/img/flag/in.svg" title="हिंदी"  id="flagHIN" onclick="location.href = 'resource/lang/hindi';">
+                        <img src="../../../../resource/img/flag/qa.svg" title="عربى"  id="flagARAB" onclick="location.href = 'resource/lang/arabic';">
                     </div>
                 </div>
                 <!--main info-->
                 <h1 id="main-title">BLOG</h1>
                 <p>Pointless posts go here.</p>
             </div>                                        
-            <div id="post1">The GNU/Libre philosophy</div>
+            <div id="post1">Mastodon Vs Twitter</div>
             <div id="projects-list">
             <div id="proj-line-container">
                 <div id="proj-line"></div>
             </div>
-                <!--Projects-->
-                <div id="fs" onclick="location.href = 'https://github.com/Chaspen/fur-shmup'">fur-shmup</div>
-                <div id="fs-desc">A Side-Scrolling action game written in <a href="https://www.python.org/">Python</a> + <a href="https://www.pygame.org/news">Pygame</a> similar to games like Cuphead and Metal Slug.</div>
-                <div id="website" onclick="location.href = 'https://github.com/Chaspen/chaspen.github.io'">chaspen.github.io</div>
-                <div id="website-desc">This site!</div>
-                <div id="chasbot" onclick="location.href = 'https://github.com/Chaspen/chaspen.github.io'">ChasBot</div>
-                <div id="chasbot-desc">A custom Discord bot for random stuff, mostly just a test of the discord.py library.</div>
-                <div id="ccus" onclick="location.href = 'https://github.com/Chaspen/chaspen.github.io'">CCUS</div>
-                <div id="ccus-desc">A collection of custom CSS for different websites.</div>
-                <div id="homePG">HomePG</div>
-                <div id="homePG-desc">A custom</div>
+                <div id="article1WRAP">
+                    <div id="article1">
+                        <a id="P1">The rising popularity of Social Media is a blessing and a curse. On one hand,<br> you can become friends with people who live in entirely different countries.<br> (An example of this would be a few of mine being from Canada, Belgium, Egypt<br> and Brazil respectivley). But on another hand these companies can be money hungry,<br> scummy mega-corporations. An example of this would be Facebook actively tracking<br> users almost everywhere they go, among other things. Here is just a short list of the<br> scummy or questionable things Facebook has done:
+                        </a>
+                        <div id="FBScum">
+                            <div id="BP">
+                                <li><a href="https://bit.ly/2O3FbkR">Facebook bans 'offensive' Swedish breast cancer awareness video</a></li>
+                                <li><a href="https://on.wsj.com/2LJmndY">Facebook Will Force Advertising on Ad-Blocking Users</a></li>
+                                <li><a href="https://bit.ly/2LIbTLM">Facebook is using your phone's location to suggest new friends</a></li>
+                                <li><a href="https://bit.ly/2OEI7FE">Facebook’s ad platform now guesses at your race based on your behavior</a></li>
+                                <li><a href="https://bit.ly/2M8f7Eh">Facebook Will Start Tracking Which Stores You Walk Into</a></li>
+                                <li><a href="https://slate.me/1SUCbH8">Facebook’s Five New Reaction Buttons: Data, Data, Data, Data, and Data</a></li>    
+                                <li><a href="https://bit.ly/1UYU1co">Publisher's Facebook page deleted after posting criticism of Turkish government</a></li>    
+                                <li><a href="https://bit.ly/2FENfIZ">Lawsuit claims Facebook illegally scanned private messages</a></li>    
+                            </div>  
+                        </div>
+                        <a id="P2">So it's obvious Facebook isn't exactly the most morally correct corporation,<br> what other options would we have then? <b> Sadly, only about 3 vaible ones:<br></b> Instagram, Twitter, and Mastodon. There's some problems with censorship<br> and hivemind mentality with Twitter and Instagram but litteraly anything is<br> better then the dumpster fire that is Facebook.
+                        <div id="compTwitter">Twitter</div>
+                        Twitter's main focus is "news" and short 140 character posts, the main pro's<br> here is that it's designed so that you can read alot in a short amount of time.<br>(Which is admittedly what I use it for), and it's a great platform for shitposting.<br>(Which is also admittedly what I use it for) and You can find tons of talented<br> artists and musicians on the site. And that's about where the pro's stop.
+                        Twitter<br> has problems with free-speech. Twitter seemingly can't differentiate between<br> something meant to harm, and a joke. An example of this would be that last year,<a href="https://www.youtube.com/watch?v=iAD0NrJIEPo"><br>I Hate Everything was suspended for posting a "violent threat"</a> and that his account<br> "will not be restored" the culprit being a tweet saying "I'm going to kill your entire<br> family". Sounds concerning at first, until you find out the person he sent this to is <br>his brother.
+                        <br>
+                        <br>
+                        Twitter also seems to be completley blind when it comes to pedophiles on their<br> service. There's an alarming amount of actual child porn and child molesters that<br> just hang around on Twitter for weeks or months but Twitter is quick to ban/suspend<br> you if you jokingingly threaten a friend or family member. Twitter focuses more on<br> "Decreasing harassment" and making their site a safe-space rather then focusing on<br> more serious things such as this.
+                        <br>
+                        <br>
+                        Much like other social media platforms, Twitter doesnt prioritize your privacy. I will give<br> credit where it's due though, Twitter's tracking and data collecting is nowhere near as bad<br> as Facebook and Instagram. But still, users should have every right to protect their personal<br> information from corporate hands.
+                        <div id="compMastodon">Mastodon</div>
+                        Mastodon has mostly the same premise as Twitter, designed in a way so that you can read<br> as much as possible in a short amount of time. The only differences is that Mastodon is split<br> into "Instances" Which are almost like entireley different social media sites, but they're still<br> under Mastodon in a way. It's hard to explain. But one example would be me having an account<br> on Mastodon's own official instance:    <a href="https://mastodon.social">mastodon.social</a>, and another on <a href="https://chitter.xyz/">chitter.xyz</a>, a mastodon<br> instance   aimed at techfurs. Mastodon is built this way so that it will never truly be dead. As every<br> instance is hosted on its own server. This can      also somewhat circumvent government censorship<br> and ISP throttling.
+                        <br>
+                        <br>
+                        It depends on the instance but i'd say around %99 of mastodon instances respect you as a user, and<br> your privacy. This is mostly because alot of Mastodon users share the same mindset. You can even<br> add features to your instance, or improve it from the regular mastodon.social instance, such as<br> increasing the character limit for Toot's, or having a random picture display in the corner of the<br> screen. Or you can even change it entireley and customize it your liking.
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

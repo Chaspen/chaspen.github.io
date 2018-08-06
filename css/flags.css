@@ -1,5 +1,5 @@
 /* FLAG ANIMS START */
-#flagUS {
+#flagUK {
     animation-name: FlagUSAnim;
     cursor: pointer;
     transform-origin: center;
@@ -10,7 +10,7 @@
     width: auto;
 }
 
-#flagUS:hover {
+#flagUK:hover {
     transform: scale(1.2);
 }
 
@@ -30,7 +30,6 @@
 }
 
 #flagIT {
-    cursor: pointer;
     cursor: pointer;
     transform-origin: center;
     transition:  transform .3s;
@@ -168,6 +167,7 @@
 }
 
 #flagSWED {
+    cursor: pointer;
     transform-origin: center;
     transition:  transform .3s;
     margin-left: 10px;
@@ -333,5 +333,20 @@
 }
 
 #flagARAB:hover {
+    transform: scale(1.2);
+}
+
+#flagPORT {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagPORT:hover {
     transform: scale(1.2);
 }

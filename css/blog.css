@@ -93,128 +93,6 @@ body {
     text-align: center;
 }
  
-#fs {
-    transition: transform .3s;
-    font-family: monsterrat;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60px;
-    width: 250px;
-    font-size: 40px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-#fs:hover {
-    transform: scale(1.1);
-}
-
-#fs-desc {
-    font-family: opsan;
-    font-size: 15px;
-    padding-top: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#website {
-    height: 60px;
-    width: 600px;
-    transition: transform .3s;
-    cursor: pointer;
-    font-family: monsterrat;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 40px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-#website:hover {
-    transform: scale(1.1);
-}
-
-#website-desc {
-    font-family: opsan;
-    font-size: 15px;
-    padding-top: 10px;
-    text-align: center;
-}
-
-#chasbot {
-    height: 60px;
-    width: 600px;
-    transition: transform .3s;
-    cursor: pointer;
-    font-family: monsterrat;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 40px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-#chasbot:hover {
-    transform: scale(1.1);
-}
-
-#chasbot-desc {
-    font-family: opsan;
-    font-size: 15px;
-    padding-top: 10px;
-    text-align: center;
-}
-
-#ccus {
-    height: 60px;
-    width: 600px;
-    transition: transform .3s;
-    cursor: pointer;
-    font-family: monsterrat;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 40px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-#ccus:hover {
-    transform: scale(1.1);
-}
-
-#ccus-desc {
-    font-family: opsan;
-    font-size: 15px;
-    padding-top: 10px;
-    text-align: center;
-}
-
-#homePG {
-    height: 60px;
-    width: 600px;
-    transition: transform .3s;
-    cursor: pointer;
-    font-family: monsterrat;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 40px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-#homePG:hover {
-    transform: scale(1.1);
-}
-
-#homePG-desc {
-    font-family: opsan;
-    font-size: 15px;
-    padding-top: 10px;
-    text-align: center;
-}
-
 @keyframes ProjTitleLineAnim {
     from {
         opacity: 0;
@@ -226,7 +104,7 @@ body {
     }
 }
 
-#proj-title {
+#post1 {
     opacity: 0;
     animation-name: ProjTitleAnim;
     animation-duration: 1s;
@@ -297,3 +175,59 @@ p {
         height: 50px;
     }
 }
+
+/* blog posts */
+#article1WRAP {
+    text-align: center;
+}
+
+#article1 {
+    display: inline-block;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 20px;
+    font-family: opsan;
+}
+
+#P1 {
+    text-align: left;
+}
+
+#FBScum {
+    padding-top: 30px;
+    width: 621px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: opsan;
+}
+
+#P2 {
+    padding-top: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+#compTwitter {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: monsterrat , sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+#compMastodon {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: monsterrat , sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+

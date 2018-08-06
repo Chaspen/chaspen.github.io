@@ -13,16 +13,16 @@ var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 
 var konamiCodePosition = 0;
 
 document.addEventListener('keydown', function(e) {
-  var key = allowedKeys[e.keyCode];
-  var requiredKey = konamiCode[konamiCodePosition];
+    var key = allowedKeys[e.keyCode];
+    var requiredKey = konamiCode[konamiCodePosition];
 
-  if (key == requiredKey) {
+    if (key == requiredKey) {
 
     konamiCodePosition++; //get pos
 
     if (konamiCodePosition == konamiCode.length) {
-      execEE();
-      konamiCodePosition = 0;
+        execEE();
+        konamiCodePosition = 0;
     }
   } else {
     konamiCodePosition = 0;
@@ -30,6 +30,5 @@ document.addEventListener('keydown', function(e) {
 });
 
 function execEE() {
-
-  window.location = "https://www.youtube.com/watch?v=DnS-GtGkH88";
+    window.location = "https://www.youtube.com/watch?v=B810Rk20pRI";
 }

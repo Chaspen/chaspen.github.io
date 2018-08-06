@@ -30,5 +30,10 @@ document.addEventListener('keydown', function(e) {
 });
 
 function execEE() {
+<<<<<<< HEAD
     window.location = "https://www.youtube.com/watch?v=B810Rk20pRI";
+=======
+
+  window.location = "https://www.youtube.com/watch?v=TJP_lB9McJ0";
+>>>>>>> 9a46e35f3b671aad427f5e6452c008e181b2458d
 }

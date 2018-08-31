@@ -1,3 +1,7 @@
+.preload {
+    transition: none !important;
+}
+
 @font-face {
     font-family: monsterrat;
     src: url("../resource/font/Montserrat-Regular.ttf");
@@ -43,6 +47,7 @@ body {
 }
 
 #main-title {
+    font-family: opsan, 'M PLUS Rounded 1c';
     animation-name: TitleAnim;
     animation-duration: 3s;
     animation-fill-mode: backwards;
@@ -272,12 +277,13 @@ h1 {
 }
 
 p {
+    position: static;
     animation-name: DescAnim;
     animation-duration: 1s;
     animation-fill-mode: backwards;
     animation-delay: 1s;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, 'M PLUS Rounded 1c';
 }
 
 #mainDescJP {

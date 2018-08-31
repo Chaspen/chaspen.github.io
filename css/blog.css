@@ -16,6 +16,7 @@
 html::-webkit-scrollbar {
     width: 0 !important
 }
+
 body {
     position: relative;
     margin: 0;
@@ -230,4 +231,7 @@ p {
     letter-spacing: 5px;
 }
 
+#LangHoverMessage {
+    font-size: 12px;
+}
 

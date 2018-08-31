@@ -10,6 +10,10 @@
     width: auto;
 }
 
+#flagUK:target {
+    
+}
+
 #flagUK:hover {
     transform: scale(1.2);
 }
@@ -348,5 +352,51 @@
 }
 
 #flagPORT:hover {
+    transform: scale(1.2);
+}
+
+
+#flagEST {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagEST:hover {
+    transform: scale(1.2);
+}
+
+#flagICE {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagICE:hover {
+    transform: scale(1.2);
+}
+
+#flagIND {
+    cursor: pointer;
+    transform-origin: center;
+    transition:  transform .3s;
+    margin-left: 10px;
+    border: 1px, solid transparent;
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+}
+
+#flagIND:hover {
     transform: scale(1.2);
 }

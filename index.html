@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <!--whole HTML doc START-->
-<html>
+<html lang="en" class="preload">
     <head>
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
         <link rel="stylesheet" type="text/css" href="css/lang.css"/>
-        <link rel="stylesheet" type="text/css" href="css/flags.css"/>
         <link rel="stylesheet" type="text/css" href="css/sidebar.css"/>
+        <link rel="stylesheet" type="text/css" href="css/flags.css">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <script src="resource/script/easter.js"></script>
+        <script src="resource/script/ChangeLang.js"></script>
+        <script src="resource/script/onHover.js"></script>
+        
     </head>
         <!--Sidebar to the left of the page START-->
     <div id="sidebar">
@@ -34,40 +39,37 @@
     <!--Sidebar to the left of the page END-->
     <body>
         <div id="main-col">
-            <script src="resource/lib/easter.js"></script>
             <!--title-card element contains the main information such as the page name and some small info. -->
                 <div id="title-card">
                 <div id="tab">
                     <!--language select container-->
                     <div id="lang-select">
                         <!--flag images with onclicks to correspending language-->
-                        <img src="resource/img/flag/gb.svg" title="English" id="flagUK">
-                        <img src="resource/img/flag/nl.svg" title="Nederlands"  id="flagDUT" onclick="location.href = 'resource/lang/dutch';">
-                        <img src="resource/img/flag/jp.svg" title="日本語"  id="flagJP" onclick="location.href = 'resource/lang/japanese';">
-                        <img src="resource/img/flag/dk.svg" title="Dansk"  id="flagDEN" onclick="location.href = 'resource/lang/danish';">
-                        <img src="resource/img/flag/vn.svg" title="Tiếng Việt"  id="flagVIET" onclick="location.href = 'resource/lang/vietnamese';">
-                        <img src="resource/img/flag/fr.svg" title="Français"  id="flagFR" onclick="location.href = 'resource/lang/french';">
-                        <img src="resource/img/flag/kr.svg" title="한국어"  id="flagKOR" onclick="location.href = 'resource/lang/korean';">
-                        <img src="resource/img/flag/se.svg" title="Svenska"  id="flagSWED" onclick="location.href = 'resource/lang/swedish';">
-                        <img src="resource/img/flag/il.svg" title="עִברִית"  id="flagHEB" onclick="location.href = 'resource/lang/hebrew';">
-                        <img src="resource/img/flag/pl.svg" title="Polskie"  id="flagPOL" onclick="location.href = 'resource/lang/polish';">
-                        <img src="resource/img/flag/ru.svg" title="Pусский"  id="flagRUS" onclick="location.href = 'resource/lang/russian';">
-                        <img src="resource/img/flag/it.svg" title="Italiano"  id="flagIT" onclick="location.href = 'resource/lang/italian';">
-                        <img src="resource/img/flag/es.svg" title="Español"  id="flagSP" onclick="location.href = 'resource/lang/spanish';">
-                        <img src="resource/img/flag/de.svg" title="Deutsch"  id="flagGERM" onclick="location.href = 'resource/lang/german';">
-                        <img src="resource/img/flag/cn.svg" title="中文"  id="flagCHIN" onclick="location.href = 'resource/lang/chinese';">
-                        <img src="resource/img/flag/cz.svg" title="čeština"  id="flagCZ" onclick="location.href = 'resource/lang/czech';">
-                        <img src="resource/img/flag/fi.svg" title="Suomalainen"  id="flagFIN" onclick="location.href = 'resource/lang/finnish';">
-                        <img src="resource/img/flag/gr.svg" title="Ελληνικά"  id="flagGRE" onclick="location.href = 'resource/lang/greek';">
-                        <img src="resource/img/flag/in.svg" title="हिंदी"  id="flagHIN" onclick="location.href = 'resource/lang/hindi';">
-                        <img src="resource/img/flag/tr.svg" title="Türk"  id="flagTURK" onclick="location.href = 'resource/lang/turkish';">
-                        <img src="resource/img/flag/qa.svg" title="عربى"  id="flagARAB" onclick="location.href = 'resource/lang/arabic';">
-                        <img src="resource/img/flag/pt.svg" title="عربى"  id="flagPORT" onclick="location.href = 'resource/lang/portugese';">
+                        <img src="resource/img/flag/gb.png" title="English" id="flagUK" onclick="langEN()">
+                        <img src="resource/img/flag/nl.png" title="Nederlands"  id="flagDUT" onclick="langDT()">
+                        <img src="resource/img/flag/jp.png" title="日本語"  id="flagJP" onclick="langJP()">
+                        <img src="resource/img/flag/dk.png" title="Dansk"  id="flagDEN" onclick="langDK()">
+                        <img src="resource/img/flag/vn.png" title="Tiếng Việt"  id="flagVIET" onclick="langVT()">
+                        <img src="resource/img/flag/fr.png" title="Français"  id="flagFR" onclick="langFR()">
+                        <img src="resource/img/flag/kr.png" title="한국어"  id="flagKOR" onclick="langKR()">
+                        <img src="resource/img/flag/se.png" title="Svenska"  id="flagSWED" onclick="langSD()">
+                        <img src="resource/img/flag/pl.png" title="Polskie"  id="flagPOL" onclick="langPL()">
+                        <img src="resource/img/flag/ru.png" title="Pусский"  id="flagRUS" onclick="langRS()">
+                        <img src="resource/img/flag/it.png" title="Italiano"  id="flagIT" onclick="langIT()">
+                        <img src="resource/img/flag/es.png" title="Español"  id="flagSP" onclick="langSP()">
+                        <img src="resource/img/flag/de.png" title="Deutsch"  id="flagGERM" onclick="langGR()">
+                        <img src="resource/img/flag/cn.png" title="中文"  id="flagCHIN" onclick="langCH()">
+                        <img src="resource/img/flag/fi.png" title="Suomalainen"  id="flagFIN" onclick="langFN()">
+                        <img src="resource/img/flag/gr.png" title="Ελληνικά"  id="flagGRE" onclick="langGK()">
+                        <img src="resource/img/flag/pt.png" title="Português"  id="flagPORT" onclick="langPT()">
+                        <img src="resource/img/flag/ee.png" title="Eesti keel"  id="flagEST" onclick="langEE()">
+                        <img src="resource/img/flag/is.png" title="Íslensku"  id="flagICE" onclick="langIS()">
+                        <img src="resource/img/flag/id.png" title="Bahasa Indonesia"  id="flagIND" onclick="langID()">
                     </div>
                 </div>
                 <!--main info-->
                 <h1 id="main-title">THE WEBZONE</h1>
-                <p>My page for projects, and the occasional blog post.</p>
+                <p id="p">My page for projects, and the occasional blog post.</p>
             </div>                                        
             <div id="proj-title">PROJECTS</div>
             <div id="projects-list">
@@ -76,7 +78,7 @@
             </div>
                 <!--Projects-->
                 <div id="fs" onclick="location.href = 'https://github.com/Chaspen/fur-shmup'">fur-shmup</div>
-                <div id="fs-desc">A Side-Scrolling action game written in <a href="https://www.python.org/">Python</a> + <a href="https://www.pygame.org/news">Pygame</a> similar to games like Cuphead and Metal Slug.</div>
+                <div id="fs-desc">A Side-Scrolling action game written in Python + Pygame similar to games like Cuphead and Metal Slug.</div>
                 <div id="website" onclick="location.href = 'https://github.com/Chaspen/chaspen.github.io'">chaspen.github.io</div>
                 <div id="website-desc">This site!</div>
                 <div id="chasbot" onclick="location.href = 'https://github.com/Chaspen/chaspen.github.io'">ChasBot</div>

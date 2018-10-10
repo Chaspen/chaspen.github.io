@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--whole HTML doc START-->
+<html lang="en" class="preload">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/radio.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/lang.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/sidebar.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/flags.css">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <script src="../resource/script/easter.js"></script>
+        <script src="../resource/script/ChangeLangRadio.js"></script>
+        <script src="../resource/script/onHover.js"></script>
+        <script src="../resource/script/PlayOneAudOnly.js"></script>
+        
+    </head>
+        <!--Sidebar to the left of the page START-->
+    <div id="sidebar">
+        <div id="halfFill"></div>
+            <div id="pfpContain">
+                <img id="pfp" src="https://avatars3.githubusercontent.com/u/25672211?s=400&u=59df8e045802e26604cf7dd0287d055afe491ee0&v=4">
+            <div id="MainSelect">
+                <div id="home">Home</div>
+                <div id="blog" onclick="location.href = 'blog'">Blog</div>
+            </div>
+            <div id="addMe">
+                <img id="discord" src="../resource/img/AddMe/discord.png">
+                <div id="discordTag">Chaspen#7382</div>
+                <img id="mastodon" src="../resource/img/AddMe/mastodon.svg">
+                <div id="mastodonTag" onclick="location.href = 'https://mastodon.social/@Chaspen';">Chaspen@mastodon</div>
+                <img id="furfag"src="../resource/img/AddMe/chitter.png">
+                <div id="furfagTag" onclick="location.href = 'https://chitter.xyz/@Chaspen';">Chaspen@chitter.xyz</div>
+                <img id="github"src="../resource/img/AddMe/github.png">
+                <div id="githubTag" onclick="location.href = 'https://github.com/Chaspen';">Gabriel Ramos</div>
+                <img id="steam"src="../resource/img/AddMe/steam.png">
+                <div id="steamTag" onclick="location.href = 'https://steamcommunity.com/profiles/76561198098269939/';">Chaspen</div>
+            </div>
+            </div>
+        <div id="copyright">© 2018 Gabriel Ramos</div>
+    </div>
+    <!--Sidebar to the left of the page END-->
+    <body>
+        <div id="main-col">
+            <!--title-card element contains the main information such as the page name and some small info. -->
+                <div id="title-card">
+                <div id="tab">
+                    <!--language select container-->
+                    <div id="lang-select">
+                        <!--flag images with onclicks to correspending language-->
+                        <img src="../resource/img/flag/gb.png" title="English" id="flagUK" onclick="RadioLangEN()">
+                        <img src="../resource/img/flag/nl.png" title="Nederlands"  id="flagDUT" onclick="RadioLangDT()">
+                        <img src="../resource/img/flag/jp.png" title="日本語"  id="flagJP" onclick="RadioLangJP()">
+                        <img src="../resource/img/flag/dk.png" title="Dansk"  id="flagDEN" onclick="RadioLangDK()">
+                        <img src="../resource/img/flag/vn.png" title="Tiếng Việt"  id="flagVIET" onclick="RadioLangVT()">
+                        <img src="../resource/img/flag/fr.png" title="Français"  id="flagFR" onclick="RadioLangFR()">
+                        <img src="../resource/img/flag/kr.png" title="한국어"  id="flagKOR" onclick="RadioLangKR()">
+                        <img src="../resource/img/flag/se.png" title="Svenska"  id="flagSWED" onclick="RadioLangSD()">
+                        <img src="../resource/img/flag/pl.png" title="Polskie"  id="flagPOL" onclick="RadioLangPL()">
+                        <img src="../resource/img/flag/ru.png" title="Pусский"  id="flagRUS" onclick="RadioLangRS()">
+                        <img src="../resource/img/flag/it.png" title="Italiano"  id="flagIT" onclick="RadioLangIT()">
+                        <img src="../resource/img/flag/es.png" title="Español"  id="flagSP" onclick="RadioLangSP()">
+                        <img src="../resource/img/flag/de.png" title="Deutsch"  id="flagGERM" onclick="RadioLangGR()">
+                        <img src="../resource/img/flag/cn.png" title="中文"  id="flagCHIN" onclick="RadioLangCH()">
+                        <img src="../resource/img/flag/fi.png" title="Suomalainen"  id="flagFIN" onclick="RadioLangFN()">
+                        <img src="../resource/img/flag/gr.png" title="Ελληνικά"  id="flagGRE" onclick="RadioLangGK()">
+                        <img src="../resource/img/flag/pt.png" title="Português"  id="flagPORT" onclick="RadioLangPT()">
+                        <img src="../resource/img/flag/ee.png" title="Eesti keel"  id="flagEST" onclick="RadioLangEE()">
+                        <img src="../resource/img/flag/is.png" title="Íslensku"  id="flagICE" onclick="RadioLangIS()">
+                        <img src="../resource/img/flag/id.png" title="Bahasa Indonesia"  id="flagIND" onclick="RadioLangID()">
+                    </div>
+                </div>
+                <!--main info-->
+                <h1 id="radio-anom">SHORTWAVE RADIO</h1>
+            </div>
+            <div id="mainAudioPageWrapper">                                   
+                <div id="ParaRabbitHole">I got into this rabbit hole just from watching YouTube videos on number stations, and in<br>
+                 one of the videos, they linked an online shortwave radio tuner. Naturally I checked it out, but I ended up<br>
+                  finding much stranger things(Atleast in my opinion.) Here is a collection of some of the weird shit i've found.
+                </div>
+                <div id="AudioDescFirst">This is what sounds like someone speaking saying English sentences, then repeating<br>
+                     it in Mandarin(Or the other way around, who knows?). It gets weirdly religous near the end for some reason, too.
+                </div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/TargetAndJesusMandarin.ogg"></audio>
+                <div id="AudioDesc1">This sounds like two people speaking either Serbian or Russian, or some other slavic language.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/serbianOrRussian.ogg"></audio>
+                <div id="AudioDesc2">I don't know what the hell this is, sounds like some sort of data is being sent to someone.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/ScribbleCompSound.ogg"></audio>
+                <div id="AudioDesc3">I ran into alot of weird-ass sounds and stations/signals when collecting the audio for this but <br>this one stands out to me for some reason.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/screech.ogg"></audio>
+                <div id="AudioDesc4">I've also ran into stations that just send out what I think is morse code. I've tried <br>cleaning these up and putting it through a translator but I only got gibberish.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/MorseLikeSig.ogg"></audio>
+                <div id="AudioDesc5">This is is actually in English(for the most part). What appears to be people speaking with the military alphabet.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/KiloIndiaWhiskey.ogg"></audio>
+                <div id="AudioDesc6">Just some random French station. Not sure why I recorded this in particular.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/FrenchTalking.ogg"></audio>
+                <div id="AudioDesc7">Someone speaking in either Estionian, Finnish, or Greek. Not that special.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/EstonianorGreek.ogg"></audio>
+                <div id="AudioDesc8">This is is actually interesting because it (apparently) originates from the capital city of <br>North Korea: Pyongyang! It's a pretty weak transmission but you can still make out some music.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/WeakPyongyang.ogg"></audio>
+                <div id="AudioDesc9">Below is also some sort of signal. Again, it could be data but i'm not sure.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/wtf.ogg"></audio>
+                <div id="AudioDesc10">All of the stations from now on are just beeps. It may be morse code but some of them are too fast to be able to tell.</div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/BeepingStation_Common.ogg"></audio>
+                <div id="AudioDesc"></div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/BeepingStation_Common1.ogg"></audio>
+                <div id="AudioDesc"></div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/BeepingStation_Common2.ogg"></audio>
+                <div id="AudioDesc"></div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/BeepingStation_Common3.ogg"></audio>
+                <div id="AudioDesc"></div>
+                <audio id="audio" controls="controls" src="../resource/audio/RadioWeirdShit/BeepingStation_Common4.ogg"></audio>
+            </div>
+        </div>
+    </body>
+</html>

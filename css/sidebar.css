@@ -66,6 +66,19 @@
     letter-spacing: 2px;
 }
 
+#radio {
+    transition: .3s;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: monsterrat;
+}
+
+#radio:hover {
+    letter-spacing: 2px;
+}
+
 #addMe {
     display: flex;
     overflow: hidden;

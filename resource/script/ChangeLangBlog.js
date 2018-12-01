@@ -1,4 +1,4 @@
-function BlogLangEN() {
+function LangEN() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = 'Mastodon Vs. Twitter'
@@ -14,7 +14,7 @@ function BlogLangEN() {
 
 }
 
-function BlogLangJP() {
+function LangJP() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = 'マストドン対Twitter'
@@ -33,7 +33,7 @@ function BlogLangJP() {
     document.getElementById('para4').innerHTML = ""
 }
 
-function BlogLangFN() {
+function LangFN() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -50,7 +50,7 @@ function BlogLangFN() {
     document.getElementById('P2').innerHTML = 'Joten on selvää, että Facebook ei ole aivan moraalisesti oikea liike, mitä muita vaihtoehtoja meillä olisi sitten? <b> Valitettavasti on vain noin 3 hyvää: <br> </ b> Instagram, Twitter ja Mastodon. On olemassa joitain ongelmia sensuuri <br> ja hivemind mielenterveys Twitter ja Instagram mutta litteraly kaikki muu on parempi kuin dumpster tulipalo, joka on Facebook.'
 }
 
-function BlogLangDK() {
+function LangDK() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -66,7 +66,7 @@ function BlogLangDK() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangSD() {
+function LangSD() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -82,7 +82,7 @@ function BlogLangSD() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangRS() {
+function LangRS() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -98,7 +98,7 @@ function BlogLangRS() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangVN() {
+function LangVN() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -114,7 +114,7 @@ function BlogLangVN() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangCH() {
+function LangCH() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -130,7 +130,7 @@ function BlogLangCH() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangKR() {
+function LangKR() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -146,7 +146,7 @@ function BlogLangKR() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangPT() {
+function LangPT() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -162,7 +162,7 @@ function BlogLangPT() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangGR() {
+function LangGR() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -178,7 +178,7 @@ function BlogLangGR() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangGK() {
+function LangGK() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -194,7 +194,7 @@ function BlogLangGK() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangFR() {
+function LangFR() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -210,7 +210,7 @@ function BlogLangFR() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangSP() {
+function LangSP() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -226,7 +226,7 @@ function BlogLangSP() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangIT() {
+function LangIT() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -242,7 +242,7 @@ function BlogLangIT() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangPL() {
+function LangPL() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -258,7 +258,7 @@ function BlogLangPL() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangEE() {
+function LangEE() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -274,7 +274,7 @@ function BlogLangEE() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangIS() {
+function LangIS() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''
@@ -290,7 +290,7 @@ function BlogLangIS() {
     document.getElementById('P2').innerHTML = ''
 }
 
-function BlogLangID() {
+function LangID() {
     document.getElementById('home').innerHTML = '';
     document.getElementById('blog').innerHTML = '';
     document.getElementById('post1').innerHTML = ''

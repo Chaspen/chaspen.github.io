@@ -8,7 +8,8 @@ function langEN() {
     document.getElementById('fs-desc').innerHTML = 'A Side-Scrolling action game written in Python + Pygame similar to games like Cuphead and Metal Slug.';
     document.getElementById('website-desc').innerHTML = 'This site!';
     document.getElementById('chasbot-desc').innerHTML = 'A custom Discord bot for random stuff, mostly just a test of the discord.py library.';
-    document.getElementById('ccus-desc').innerHTML = 'A collection of custom CSS for    different websites.';
+    document.getElementById('ccus-desc').innerHTML = 'A collection of custom CSS for different websites.';
+    document.getElementById('homePG-desc').innerHTML = 'A custom Home page that can replace the default in most modern browsers(except maybe Edge)';
 }
 
 function langDT() { //Dutch
@@ -22,6 +23,7 @@ function langDT() { //Dutch
     document.getElementById('website-desc').innerHTML = 'Deze site!';
     document.getElementById('chasbot-desc').innerHTML = 'Een aangepaste Discord-bot voor willekeurige dingen, meestal slechts een test van de bibliotheek discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Een verzameling aangepaste CSS voor verschillende websites.';
+    document.getElementById('homePG-desc').innerHTML = 'Een aangepaste startpagina die de standaard in de meeste moderne browsers kan vervangen (behalve misschien Edge)';
 }
 
 function langJP() { //Japanese
@@ -34,6 +36,7 @@ function langJP() { //Japanese
     document.getElementById('website-desc').innerHTML = 'このサイト！';
     document.getElementById('chasbot-desc').innerHTML = 'ランダムなもののために作られたカスタムDiscord。 これはdiscord.pyライブラリのテストです。';
     document.getElementById('ccus-desc').innerHTML = '異なるサイトのカスタムCSSのコレクション。';
+    document.getElementById('homePG-desc').innerHTML = '最新のブラウザ（Edgeを除く）のデフォルトを置き換えることのできるカスタムの開始ページ';
 }
 
 function langFN() { //Finnish
@@ -47,9 +50,11 @@ function langFN() { //Finnish
     document.getElementById('website-desc').innerHTML = 'Tämä sivusto!';
     document.getElementById('chasbot-desc').innerHTML = 'Mukautettu Discord-botti, joka tekee satunnaisia asioita, se on vain discord.py-kirjaston testi';
     document.getElementById('ccus-desc').innerHTML = 'Kokoelma mukautettuja CSS-nahkoja eri sivustoille.';
+    document.getElementById('homePG-desc').innerHTML = 'Mukautettu aloitussivu, joka voi korvata oletusarvon uusimmissa selaimissa (paitsi ehkä Edge)';
 }
 
 function langDK() { //Danish
+
     document.documentElement.lang = "da" ;
     document.getElementById('home').innerHTML = 'HJEM';
     document.getElementById('blog').innerHTML = 'BLOG';
@@ -60,6 +65,7 @@ function langDK() { //Danish
     document.getElementById('website-desc').innerHTML = 'Denne site!';
     document.getElementById('chasbot-desc').innerHTML = 'En brugerdefineret discord bot til tilfældige ting, for det meste bare en test af discord.py biblioteket.';
     document.getElementById('ccus-desc').innerHTML = 'En samling af brugerdefineret CSS til forskellige hjemmesider.';
+    document.getElementById('homePG-desc').innerHTML = 'En brugerdefineret startside, der kan erstatte standard i de fleste moderne browsere (undtagen måske Edge)';
 }
 
 function langSD() { //Swedish
@@ -73,6 +79,7 @@ function langSD() { //Swedish
     document.getElementById('website-desc').innerHTML = 'Denna sajt!';
     document.getElementById('chasbot-desc').innerHTML = 'En anpassad Discord bot för slumpmässiga saker, vanligtvis bara ett test av discord.py biblioteket.';
     document.getElementById('ccus-desc').innerHTML = 'En samling anpassad CSS för olika webbplatser.';   
+    document.getElementById('homePG-desc').innerHTML = 'En anpassad startsida som kan ersätta standard i de flesta moderna webbläsare (förutom kanske Edge)';
 }
 
 function langRS() { //Russian
@@ -86,6 +93,7 @@ function langRS() { //Russian
     document.getElementById('website-desc').innerHTML = 'Этот сайт!';
     document.getElementById('chasbot-desc').innerHTML = 'Пользовательский Discord Bot для случайных вещей, в основном, просто тестирует библиотеку discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Коллекция пользовательских CSS для разных сайтов.'; 
+    document.getElementById('homePG-desc').innerHTML = 'Пользовательская стартовая страница, которая может заменить значение по умолчанию в большинстве современных браузеров (кроме, возможно, Edge)';
 }
 
 function langVN() { //Vietnamese
@@ -99,6 +107,7 @@ function langVN() { //Vietnamese
     document.getElementById('website-desc').innerHTML = 'This site!';
     document.getElementById('chasbot-desc').innerHTML = 'A custom Discord bot for random stuff, mostly just a test of the discord.py library.';
     document.getElementById('ccus-desc').innerHTML = 'A collection of custom CSS for different websites.';
+    document.getElementById('homePG-desc').innerHTML = 'Trang bắt đầu tùy chỉnh có thể thay thế mặc định trong hầu hết các trình duyệt hiện đại (ngoại trừ có thể là Edge)';
 }
 
 function langCH() { //Chinese
@@ -112,6 +121,7 @@ function langCH() { //Chinese
     document.getElementById('website-desc').innerHTML = '这个网站！';
     document.getElementById('chasbot-desc').innerHTML = '用于随机内容的自定义Discord bot，大多数只是对discord.py库的测试。';
     document.getElementById('ccus-desc').innerHTML = '针对不同网站的自定义CSS集合';
+    document.getElementById('homePG-desc').innerHTML = '一个自定义的起始页面，可以替换大多数现代浏览器中的默认值（除了Edge）';
 }
 
 function langKR() { //Korean
@@ -124,6 +134,7 @@ function langKR() { //Korean
     document.getElementById('website-desc').innerHTML = '이 장소!';
     document.getElementById('chasbot-desc').innerHTML = '내 사용자 지정 Discord 봇은 discord.py 라이브러리 만 테스트하고 있습니다.';
     document.getElementById('ccus-desc').innerHTML = '다른 웹 사이트에 대한 맞춤 CSS 컬렉션입니다.';
+    document.getElementById('homePG-desc').innerHTML = '대부분의 최신 브라우저에서 기본값을 대체 할 수있는 사용자 정의 시작 페이지 (Edge 제외)';
 }
 
 function langPT() { //Portuguese
@@ -137,6 +148,7 @@ function langPT() { //Portuguese
     document.getElementById('website-desc').innerHTML = 'Esse site!';
     document.getElementById('chasbot-desc').innerHTML = 'Um bot de Discord customizado para coisas aleatórias, principalmente apenas um teste da biblioteca discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Uma coleção de CSS personalizado para diferentes sites.';
+    document.getElementById('homePG-desc').innerHTML = 'Uma página inicial personalizada que pode substituir o padrão na maioria dos navegadores modernos (exceto talvez Edge)';
 }
 
 function langGR() { //German
@@ -150,6 +162,7 @@ function langGR() { //German
     document.getElementById('website-desc').innerHTML = 'Diese Seite!';
     document.getElementById('chasbot-desc').innerHTML = 'Ein benutzerdefinierter Discord-Bot für zufällige Sachen, meist nur ein Test der discord.py-Bibliothek.';
     document.getElementById('ccus-desc').innerHTML = 'Eine Sammlung von benutzerdefinierten CSS für verschiedene Websites.';
+    document.getElementById('homePG-desc').innerHTML = 'Eine benutzerdefinierte Startseite, die die Standardeinstellung in den meisten modernen Browsern ersetzen kann (außer Edge)';
 }
 
 function langGK() { //Greek
@@ -163,6 +176,7 @@ function langGK() { //Greek
     document.getElementById('website-desc').innerHTML = 'Αυτό το μέρος!';
     document.getElementById('chasbot-desc').innerHTML = 'Ένα προσαρμοσμένο bot Discord για τυχαία πράγματα, συνήθως μόνο μια δοκιμασία της βιβλιοθήκης discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Μια συλλογή προσαρμοσμένων CSS για διαφορετικούς ιστότοπους.';
+    document.getElementById('homePG-desc').innerHTML = 'Μια προσαρμοσμένη σελίδα εκκίνησης που μπορεί να αντικαταστήσει την προεπιλογή στα περισσότερα σύγχρονα προγράμματα περιήγησης (εκτός ίσως Edge)'
 }
 
 function langFR() { //French
@@ -176,6 +190,7 @@ function langFR() { //French
     document.getElementById('website-desc').innerHTML = 'Ce site!';
     document.getElementById('chasbot-desc').innerHTML = 'Un bot Discord personnalisé pour des choses aléatoires, principalement juste un test de la bibliothèque discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Une collection de CSS personnalisée pour différents sites Web.';
+    document.getElementById('homePG-desc').innerHTML = 'Une page de démarrage personnalisée pouvant remplacer la valeur par défaut dans la plupart des navigateurs modernes (sauf peut-être Edge)'
 }
 
 function langSP() { //Spanish
@@ -189,6 +204,7 @@ function langSP() { //Spanish
     document.getElementById('website-desc').innerHTML = 'Este sitio!';
     document.getElementById('chasbot-desc').innerHTML = 'Un bot personalizado de Discord para cosas aleatorias, principalmente solo una prueba de la biblioteca discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Una colección de CSS personalizados para diferentes sitios web.';
+    document.getElementById('homePG-desc').innerHTML = 'Una página de inicio personalizada que puede reemplazar el valor predeterminado en la mayoría de los navegadores modernos (excepto quizás Edge)'
 }
 
 function langIT() { //Italian
@@ -202,6 +218,7 @@ function langIT() { //Italian
     document.getElementById('website-desc').innerHTML = 'Questo sito!';
     document.getElementById('chasbot-desc').innerHTML = 'Un bot Discord personalizzato per cose casuali, principalmente solo un test della libreria discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Una raccolta di CSS personalizzati per diversi siti Web.';
+    document.getElementById('homePG-desc').innerHTML = 'Una pagina iniziale personalizzata che può sostituire l&apos;impostazione predefinita nella maggior parte dei browser moderni (tranne forse Edge)'
 }
 
 function langPL() { //Polish
@@ -215,6 +232,8 @@ function langPL() { //Polish
     document.getElementById('website-desc').innerHTML = 'Ta strona!';
     document.getElementById('chasbot-desc').innerHTML = 'Niestandardowy bot Discord do celów losowych, głównie test z biblioteki discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Zbiór niestandardowych arkuszy CSS dla różnych witryn.';
+    document.getElementById('homePG-desc').innerHTML = 'Niestandardowa strona początkowa, która może zastąpić domyślną w większości nowoczesnych przeglądarek (z wyjątkiem może Edge)'
+    
 }
 
 function langEE() { //Estonian
@@ -228,6 +247,7 @@ function langEE() { //Estonian
     document.getElementById('website-desc').innerHTML = 'See sait!';
     document.getElementById('chasbot-desc').innerHTML = 'Bot, mis suudab juhuslikke asju teha. see on lihtsalt discord.py raamatukogu test.';
     document.getElementById('ccus-desc').innerHTML = 'Kohandatud CSS-stiilide kogum erinevatele veebisaitidele.';
+    document.getElementById('homePG-desc').innerHTML = 'Kohandatud avaleht, mis suudab asendada vaikimisi enamikes kaasaegsetes brauserites (välja arvatud võib-olla Edge)'
 }
 
 function langIS() { //Icelandic
@@ -241,6 +261,7 @@ function langIS() { //Icelandic
     document.getElementById('website-desc').innerHTML = 'Þessi síða!';
     document.getElementById('chasbot-desc').innerHTML = 'A sérsniðin discord vélmenni sem hefur engin raunveruleg tilgang. Að mestu leyti er bara próf á discord.py bókasafninu.';
     document.getElementById('ccus-desc').innerHTML = 'Safn af sérsniðnum CSS fyrir mismunandi vefsíður.';
+    document.getElementById('homePG-desc').innerHTML = 'Sérsniðin upphafssíða sem getur staðið sjálfgefið í flestum nútíma vafrum (nema kannski Edge)'
 }
 
 function langID() { //Indonesian
@@ -254,4 +275,5 @@ function langID() { //Indonesian
     document.getElementById('website-desc').innerHTML = 'Situs ini!';
     document.getElementById('chasbot-desc').innerHTML = 'Bot Discord kustom untuk hal-hal acak, kebanyakan hanya tes perpustakaan discord.py.';
     document.getElementById('ccus-desc').innerHTML = 'Kumpulan CSS khusus untuk berbagai situs web.';
+    document.getElementById('homePG-desc').innerHTML = 'Halaman mulai kustom yang dapat menggantikan default di sebagian besar browser modern (kecuali mungkin Edge)'
 }

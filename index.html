@@ -2,6 +2,8 @@
 <!--whole HTML doc START-->
 <html lang="en" class="preload">
     <head>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="jquery.visible.js"></script>
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
         <link rel="stylesheet" type="text/css" href="css/lang.css"/>
         <link rel="stylesheet" type="text/css" href="css/sidebar.css"/>
@@ -10,6 +12,7 @@
         <script src="resource/script/easter.js"></script>
         <script src="resource/script/ChangeLang.js"></script>
         <script src="resource/script/onHover.js"></script>
+        <script src="resource/script/LangSelectVisible.js"></script>
         
     </head>
         <!--Sidebar to the left of the page START-->
@@ -18,8 +21,9 @@
             <div id="pfpContain">
                 <img id="pfp" src="https://avatars3.githubusercontent.com/u/25672211?s=400&u=59df8e045802e26604cf7dd0287d055afe491ee0&v=4">
             <div id="MainSelect">
-                <div id="home">Home</div>
-                <div id="blog" onclick="location.href = 'blog'">Blog</div>
+                <div id="home">HOME</div>
+                <div id="blog" onclick="location.href = 'blog'">BLOG</div>
+                <div id="radio" onclick="location.href = 'radio'">RADIO</div>
             </div>
             <div id="addMe">
                 <img id="discord" src="resource/img/AddMe/discord.png">
@@ -86,7 +90,7 @@
                 <div id="ccus" onclick="location.href = 'https://github.com/Chaspen/chaspen.github.io'">CCUS</div>
                 <div id="ccus-desc">A collection of custom CSS for different websites.</div>
                 <div id="homePG">HomePG</div>
-                <div id="homePG-desc">A custom</div>
+                <div id="homePG-desc">A custom Home page that can replace the default in most modern browsers(except maybe Edge)</div>
             </div>
         </div>
     </body>

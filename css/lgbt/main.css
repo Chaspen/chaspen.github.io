@@ -31,8 +31,6 @@ body {
 }
 
 #title-card {
-    animation-name: TitCard;
-    animation-duration: 1.5s;
     background: linear-gradient(to bottom right, #d9006f, #0033ab);
     height: 310px;
     padding-top: 0px;
@@ -41,56 +39,18 @@ body {
     letter-spacing: 10
 }
 
-@keyframes TitCard{
-    from {height: 0px;}
-    to {height: 310px;}
-}
-
 #main-title {
     font-family: opsan, 'M PLUS Rounded 1c';
-    animation-name: TitleAnim;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-    animation-delay: 0.5s;
     font-size: 90px;
-    color: #;
 }
 
 /* This div is only for the Japanese page. The font on the japanese page moves the desc text down for some reason and it doesnt look right */
 
 #main-titleJP {
-    animation-name: TitleAnim;
-    animation-duration: 3s;
-    animation-fill-mode: backwards;
-    animation-delay: 0.5s;
     font-size: 80px;
 }
 
-@keyframes TitleAnim {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes TitleCard-anim {
-    from {font-size: 1px;}
-    to {font-size 30px;}
-}
-
-@keyframes PJList {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes DescAnim {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
 #projects-list {
-    animation-name: PJList;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    animation-fill-mode: backwards;
     overflow: hidden;
 }
 
@@ -220,24 +180,8 @@ body {
     text-align: center;
 }
 
-@keyframes ProjTitleLineAnim {
-    from {
-        opacity: 0;
-        width: 0px;
-    }
-    to {
-        opacity: 1;
-        width: 600px;
-    }
-    
-}
-
 #proj-title {
     opacity: 0;
-    animation-name: ProjTitleAnim;
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
     text-align: center;
     padding-top: 90px;
     font-family: monsterrat , sans-serif;
@@ -246,15 +190,7 @@ body {
     letter-spacing: 20px;
 }
 
-@keyframes ProjTitleAnim {
-    from {opacity 0;}
-    to {opacity: 1;}
-}
-
 #proj-line {
-    animation-duration: 1s;
-    animation-delay: 1.6s;
-    animation-fill-mode: forwards;
     text-align: center;
     height: 3px;
     width: 600px;;
@@ -277,28 +213,10 @@ h1 {
 
 p {
     position: static;
-    animation-name: DescAnim;
-    animation-duration: 1s;
-    animation-fill-mode: backwards;
-    animation-delay: 1s;
     text-align: center;
     font-family: 'Montserrat', sans-serif, 'M PLUS Rounded 1c';
 }
 
 #mainDescJP {
     padding: 
-}
-
-@keyframes FlagsAnim {
-    from { opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes TabAnim {
-    from {
-        height: 0px;
-    }
-    to {
-        height: 50px;
-    }
 }

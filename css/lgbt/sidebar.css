@@ -116,7 +116,7 @@
     position: absolute;
     height: 40px;
     width: 40px;
-    margin-top: 50px;
+    margin-top:50px;
     background-color: white;
     border-radius: 100%;
 }
@@ -137,36 +137,11 @@
     letter-spacing: .2px;
 }
 
-#furfag {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    margin-top: 100px;
-    background-color: white;
-    border-radius: 100%;
-}
-
-#furfagTag {
-    cursor: pointer;
-    transition: .5s;
-    position: absolute;
-    flex: 1;
-    margin-top: 110px;
-    margin-bottom: auto;
-    margin-left: 50px;
-    font-family: opsan;
-    font-size: 15px;
-}
-
-#furfagTag:hover {
-    letter-spacing: 1.5px;
-}
-
 #github {
     position: absolute;
     height: 40px;
     width: 40px;
-    margin-top: 150px;
+    margin-top: 100px;
     background-color: white;
     border-radius: 100%;
 }
@@ -176,7 +151,7 @@
     transition: .5s;
     position: absolute;
     flex: 1;
-    margin-top: 160px;
+    margin-top: 110px;
     margin-bottom: auto;
     margin-left: 50px;
     font-family: opsan;
@@ -191,7 +166,7 @@
     position: absolute;
     height: 40px;
     width: 40px;
-    margin-top: 200px;
+    margin-top: 150px;
     background-color: white;
     border-radius: 100%;
 }
@@ -201,7 +176,7 @@
     transition: .5s;
     position: absolute;
     flex: 1;
-    margin-top: 210px;
+    margin-top: 160px;
     margin-bottom: auto;
     margin-left: 50px;
     font-family: opsan;

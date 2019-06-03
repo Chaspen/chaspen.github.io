@@ -1,8 +1,8 @@
 function langEN() {
     document.documentElement.lang = "en" ;
     document.getElementById('home').innerHTML = 'HOME';
-    document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'THE WEBZONE';
+    document.getElementById('radio').innerHTML = 'RADIO';
+    document.getElementById('main-title').innerHTML = 'HOME';
     document.getElementById('p').innerHTML = 'My page for projects, and the occasional blog post.';
     document.getElementById('proj-title').innerHTML = 'PROJECTS';
     document.getElementById('fs-desc').innerHTML = 'A Side-Scrolling action game written in Python + Pygame similar to games like Cuphead and Metal Slug.';
@@ -16,7 +16,7 @@ function langDT() { //Dutch
     document.documentElement.lang = "nl" ;
     document.getElementById('home').innerHTML = 'HUIS';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'DE WEBZONE';
+    document.getElementById('main-title').innerHTML = 'HUIS';
     document.getElementById('p').innerHTML = 'Mijn pagina voor projecten en de occasionele blogpost.';
     document.getElementById('proj-title').innerHTML = 'PROJECTEN';
     document.getElementById('fs-desc').innerHTML = 'Een side-scrolling actiegame geschreven in Python + Pygame vergelijkbaar met games als Cuphead en Metal Slug.';
@@ -28,8 +28,8 @@ function langDT() { //Dutch
 
 function langJP() { //Japanese
     document.getElementById('home').innerHTML = '自宅';
-    document.getElementById('blog').innerHTML = 'ブログ';
-    document.getElementById('main-title').innerHTML = 'ウェブゾーン';
+    document.getElementById('radio').innerHTML = 'ラジオ';
+    document.getElementById('main-title').innerHTML = '自宅';
     document.getElementById('p').innerHTML = 'プロジェクトのための私のページ、および時折のブログ記事。';
     document.getElementById('proj-title').innerHTML = 'プロジェクト';
     document.getElementById('fs-desc').innerHTML = 'CupheadとMetal Slugのようなゲームに似た、Python + Pygameで書かれたSide-Scrollingアクションゲーム。';
@@ -43,7 +43,7 @@ function langFN() { //Finnish
     document.documentElement.lang = "fi" ;
     document.getElementById('home').innerHTML = 'KOTI';
     document.getElementById('blog').innerHTML = 'BLOGI';
-    document.getElementById('main-title').innerHTML = 'WEB-ALUE';
+    document.getElementById('main-title').innerHTML = 'KOTI';
     document.getElementById('p').innerHTML = 'Tämä on sivu, jossa laitan projektini ja joskus blogikirjoituksen.';
     document.getElementById('proj-title').innerHTML = 'HANKKEET';
     document.getElementById('fs-desc').innerHTML = 'Toimintapeli kirjoitettu Python + pygame, se muistuttaa pelejä, kuten Cuphead ja Metal Slug';
@@ -58,7 +58,7 @@ function langDK() { //Danish
     document.documentElement.lang = "da" ;
     document.getElementById('home').innerHTML = 'HJEM';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'WEBZONEN';
+    document.getElementById('main-title').innerHTML = 'HJEM';
     document.getElementById('p').innerHTML = 'Min side til projekter, og lejlighedsvis blogindlæg.';
     document.getElementById('proj-title').innerHTML = 'PROJEKTER';
     document.getElementById('fs-desc').innerHTML = 'En Side-Scrolling Action spil skrevet i Python + Pygame spiller som spil som Cuphead og Metal Slug.';
@@ -72,7 +72,7 @@ function langSD() { //Swedish
     document.documentElement.lang = "sv" ;
     document.getElementById('home').innerHTML = 'HEM';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'WEBBANAN';
+    document.getElementById('main-title').innerHTML = 'HEM';
     document.getElementById('p').innerHTML = 'Min sida för projekt, och ibland blogginlägg.';
     document.getElementById('proj-title').innerHTML = 'PROJEKT';
     document.getElementById('fs-desc').innerHTML = 'Ett sidoskrollande actionspel skrivet i Python + Pygame som liknar spel som Cuphead och Metal Slug.';
@@ -85,8 +85,8 @@ function langSD() { //Swedish
 function langRS() { //Russian
     document.documentElement.lang = "ru" ;
     document.getElementById('home').innerHTML = 'ГЛАВНАЯ';
-    document.getElementById('blog').innerHTML = 'БЛОГ';
-    document.getElementById('main-title').innerHTML = 'ВЕБ-ЗОНА';
+    document.getElementById('radio').innerHTML = 'РАДИО';
+    document.getElementById('main-title').innerHTML = 'ГЛАВНАЯ';
     document.getElementById('p').innerHTML = 'Моя страница для проектов, а иногда я отправляю сообщение в блоге.';
     document.getElementById('proj-title').innerHTML = 'ПРОЕКТЫ';
     document.getElementById('fs-desc').innerHTML = 'Игра с боковой прокруткой, написанная на Python + Pygame, похожая на игры, такие как Cuphead и Metal Slug.';
@@ -96,25 +96,11 @@ function langRS() { //Russian
     document.getElementById('homePG-desc').innerHTML = 'Пользовательская стартовая страница, которая может заменить значение по умолчанию в большинстве современных браузеров (кроме, возможно, Edge)';
 }
 
-function langVN() { //Vietnamese
-    document.documentElement.lang = "vi" ;
-    document.getElementById('home').innerHTML = 'HOME';
-    document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'THE WEBZONE';
-    document.getElementById('p').innerHTML = 'My page for projects, and the occasional blog post.';
-    document.getElementById('proj-title').innerHTML = 'PROJECTS';
-    document.getElementById('fs-desc').innerHTML = 'A Side-Scrolling action game written in Python + Pygame similar to games like Cuphead and Metal Slug.';
-    document.getElementById('website-desc').innerHTML = 'This site!';
-    document.getElementById('chasbot-desc').innerHTML = 'A custom Discord bot for random stuff, mostly just a test of the discord.py library.';
-    document.getElementById('ccus-desc').innerHTML = 'A collection of custom CSS for different websites.';
-    document.getElementById('homePG-desc').innerHTML = 'Trang bắt đầu tùy chỉnh có thể thay thế mặc định trong hầu hết các trình duyệt hiện đại (ngoại trừ có thể là Edge)';
-}
-
 function langCH() { //Chinese
     document.documentElement.lang = "zh-Hans" ;
     document.getElementById('home').innerHTML = '家';
-    document.getElementById('blog').innerHTML = '博客';
-    document.getElementById('main-title').innerHTML = '网站';
+    document.getElementById('radio').innerHTML = '无线电';
+    document.getElementById('main-title').innerHTML = '家';
     document.getElementById('p').innerHTML = '这个页面用于我自己的多个项目，以及博客文章。.';
     document.getElementById('proj-title').innerHTML = '项目';
     document.getElementById('fs-desc').innerHTML = '这个用Python + Pygame编写的Side-Scrolling动作游戏类似于Cuphead和Metal Slug等游戏。';
@@ -126,8 +112,8 @@ function langCH() { //Chinese
 
 function langKR() { //Korean
     document.getElementById('home').innerHTML = '집';
-    document.getElementById('blog').innerHTML = '블로그';
-    document.getElementById('main-title').innerHTML = '웹존';
+    document.getElementById('radio').innerHTML = '라디오';
+    document.getElementById('main-title').innerHTML = '집';
     document.getElementById('p').innerHTML = '프로젝트 용 내 페이지 및 가끔 블로그 게시물.';
     document.getElementById('proj-title').innerHTML = '프로젝트';
     document.getElementById('fs-desc').innerHTML = 'Cuphead 및 Metal Slug와 같은 게임과 비슷한 Python + Pygame으로 작성된 Side-Scrolling 액션 게임.';
@@ -140,8 +126,8 @@ function langKR() { //Korean
 function langPT() { //Portuguese
     document.documentElement.lang = "pt" ;
     document.getElementById('home').innerHTML = 'CASA';
-    document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'O WEBZONE';
+    document.getElementById('radio').innerHTML = 'RÁDIO';
+    document.getElementById('main-title').innerHTML = 'CASA';
     document.getElementById('p').innerHTML = 'Minha página para projetos de programação, às vezes eu posto as coisas em um blog.';
     document.getElementById('proj-title').innerHTML = 'PROJETOS';
     document.getElementById('fs-desc').innerHTML = 'Um jogo de ação Side-Scrolling escrito em Python + Pygame semelhante a jogos como Cuphead e Metal Slug.';
@@ -155,7 +141,7 @@ function langGR() { //German
     document.documentElement.lang = "de" ;
     document.getElementById('home').innerHTML = 'ZUHAUSE';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'DIE WEBZONE';
+    document.getElementById('main-title').innerHTML = 'ZUHAUSE';
     document.getElementById('p').innerHTML = 'Meine Seite für Projekte und gelegentlich Blogpost.';
     document.getElementById('proj-title').innerHTML = 'PROJEKTE';
     document.getElementById('fs-desc').innerHTML = 'Ein Side-Scrolling-Action-Spiel in Python + Pygame ähnlich wie Cuphead und Metal Slug.';
@@ -168,8 +154,8 @@ function langGR() { //German
 function langGK() { //Greek
     document.documentElement.lang = "el" ;
     document.getElementById('home').innerHTML = 'ΣΠΙΤΙ';
-    document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'ΔΙΚΤΥΑΚΟΣ ΤΟΠΟΣ';
+    document.getElementById('radio').innerHTML = 'ΡΆΔΙΟ';
+    document.getElementById('main-title').innerHTML = 'ΣΠΙΤΙ';
     document.getElementById('p').innerHTML = 'Η σελίδα μου για τα έργα και η περιστασιακή δημοσίευση στο blog.';
     document.getElementById('proj-title').innerHTML = 'ΕΡΓΑ';
     document.getElementById('fs-desc').innerHTML = 'Ένα παιχνίδι δράσης Side-Scrolling γραμμένο σε Python + Pygame παρόμοιο με παιχνίδια όπως το Cuphead και το Metal Slug.';
@@ -183,7 +169,7 @@ function langFR() { //French
     document.documentElement.lang = "fr" ;
     document.getElementById('home').innerHTML = 'MAISON';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'LA WEBZONE';
+    document.getElementById('main-title').innerHTML = 'MAISON';
     document.getElementById('p').innerHTML = 'Ma page pour les projets et le blog occasionnel.';
     document.getElementById('proj-title').innerHTML = 'PROJETS';
     document.getElementById('fs-desc').innerHTML = 'Un jeu d&apos;action Side-Scrolling écrit en Python + Pygame similaire aux jeux comme Cuphead et Metal Slug.';
@@ -197,7 +183,7 @@ function langSP() { //Spanish
     document.documentElement.lang = "es" ;
     document.getElementById('home').innerHTML = 'CASA';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'EL WEBZONE';
+    document.getElementById('main-title').innerHTML = 'CASA';
     document.getElementById('p').innerHTML = 'Mi página para proyectos y la publicación de blog ocasional.';
     document.getElementById('proj-title').innerHTML = 'PROYECTOS';
     document.getElementById('fs-desc').innerHTML = 'Un juego de acción de desplazamiento lateral escrito en Python + Pygame similar a juegos como Cuphead y Metal Slug.';
@@ -211,7 +197,7 @@ function langIT() { //Italian
     document.documentElement.lang = "it" ;
     document.getElementById('home').innerHTML = 'CASA';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'LA ZONA WEB';
+    document.getElementById('main-title').innerHTML = 'CASA';
     document.getElementById('p').innerHTML = 'La mia pagina per i progetti e il post del blog occasionale.';
     document.getElementById('proj-title').innerHTML = 'PROGETTI';
     document.getElementById('fs-desc').innerHTML = 'Un gioco d&apos;azione a scorrimento laterale scritto in Python + Pygame simile a giochi come Cuphead e Metal Slug.';
@@ -225,7 +211,7 @@ function langPL() { //Polish
     document.documentElement.lang = "pl" ;
     document.getElementById('home').innerHTML = 'DOM';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'STREFA INTERNETOWA';
+    document.getElementById('main-title').innerHTML = 'DOM';
     document.getElementById('p').innerHTML = 'Moja strona dla moich projektów, jest tu także blog, w którym publikuję rzeczy.';
     document.getElementById('proj-title').innerHTML = 'PROJEKTOWANIE';
     document.getElementById('fs-desc').innerHTML = 'Gra akcji napisana w języku Python + Pygame podobna do gier takich jak Cuphead i Metal Slug.';
@@ -239,8 +225,8 @@ function langPL() { //Polish
 function langEE() { //Estonian
     document.documentElement.lang = "et" ;
     document.getElementById('home').innerHTML = 'KODU';
-    document.getElementById('blog').innerHTML = 'BLOGI';
-    document.getElementById('main-title').innerHTML = 'VEEBI TSOON';
+    document.getElementById('radio').innerHTML = 'RAADIO';
+    document.getElementById('main-title').innerHTML = 'KODU';
     document.getElementById('p').innerHTML = 'Minu projekti leht ja mõnikord juhuslikud blogipostitused.';
     document.getElementById('proj-title').innerHTML = 'PROJEKTID';
     document.getElementById('fs-desc').innerHTML = 'See külgmise kerimise tegevusmäng on sarnane muude mängudega nagu Cuphead ja Metal Slug';
@@ -253,8 +239,8 @@ function langEE() { //Estonian
 function langIS() { //Icelandic
     document.documentElement.lang = "is" ;
     document.getElementById('home').innerHTML = 'HEIM';
-    document.getElementById('blog').innerHTML = 'BLOGG';
-    document.getElementById('main-title').innerHTML = 'VEFURSVÆÐI';
+    document.getElementById('radio').innerHTML = 'ÚTVARP';
+    document.getElementById('main-title').innerHTML = 'HEIM';
     document.getElementById('p').innerHTML = 'Þetta er vefsíða fyrir suma af verkefnum mínum og stundum bloggfærslunni.';
     document.getElementById('proj-title').innerHTML = 'DÓTIÐ MITT';
     document.getElementById('fs-desc').innerHTML = 'Aðgerð leikur skrifað í Python + Pygame svipað leikjum eins og Cuphead og Metal Slug.';
@@ -268,7 +254,7 @@ function langID() { //Indonesian
     document.documentElement.lang = "id" ;
     document.getElementById('home').innerHTML = 'RUMAH';
     document.getElementById('blog').innerHTML = 'BLOG';
-    document.getElementById('main-title').innerHTML = 'ZONA WEB';
+    document.getElementById('main-title').innerHTML = 'RUMAH';
     document.getElementById('p').innerHTML = 'Halaman saya untuk beberapa proyek saya, dan kiriman blog sesekali.';
     document.getElementById('proj-title').innerHTML = 'PROYEK';
     document.getElementById('fs-desc').innerHTML = 'Game aksi Side-Scrolling yang ditulis dengan Python + Pygame. Ini mirip dengan game seperti Cuphead dan Metal Slug.';

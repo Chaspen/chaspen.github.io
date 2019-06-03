@@ -1,0 +1,237 @@
+@font-face {
+    font-family: monsterrat;
+    src: url("../resource/font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: opsan;
+    src: url("../resource/font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("../resource/font/Roboto-Regular.ttf");
+}
+
+html::-webkit-scrollbar {
+    width: 0 !important
+}
+
+body {
+    position: relative;
+    margin: 0;
+}
+/* MAIN COL START */
+#main-col {
+    height: 5000px;
+    background-color: #dfe6e9;
+    padding-left:300px;
+}
+
+#title-card {
+    animation-name: TitCard;
+    animation-duration: 1.5s;
+    background: linear-gradient(to bottom right, #0984e3, #81ecec);
+    height: 310px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin: 0;
+    letter-spacing: 10
+}
+
+@keyframes TitCard{
+    from {height: 0px;}
+    to {height: 310px;}
+}
+
+#main-title {
+    animation-name: TitleAnim;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
+    font-size: 90px;
+}
+
+/* This div is only for the Japanese page. The font on the japanese page moves the desc text down for some reason and it doesnt look right */
+
+#main-titleJP {
+    animation-name: TitleAnim;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
+    font-size: 80px;
+}
+
+@keyframes TitleAnim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes TitleCard-anim {
+    from {font-size: 1px;}
+    to {font-size 30px;}
+}
+
+@keyframes PJList {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes DescAnim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#projects-list {
+    animation-name: PJList;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    overflow: hidden;
+}
+
+#lol {
+    text-align: center;
+}
+ 
+@keyframes ProjTitleLineAnim {
+    from {
+        opacity: 0;
+        width: 0px;
+    }
+    to {
+        opacity: 1;
+        width: 600px;
+    }
+}
+
+#post1 {
+    opacity: 0;
+    animation-name: ProjTitleAnim;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    text-align: center;
+    padding-top: 90px;
+    font-family: monsterrat , sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+@keyframes ProjTitleAnim {
+    from {opacity 0;}
+    to {opacity: 1;}
+}
+
+#proj-line {
+    opacity: 0;
+    animation-name: ProjTitleLineAnim;
+    animation-duration: 1s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    text-align: center;
+    height: 3px;
+    width: 600px;;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #0984e3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#proj-line-container {
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: 'Robotoh', sans-serif;
+    text-align: center;
+    font-size: 90px;
+}
+
+p {
+    animation-name: DescAnim;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainDescJP {
+    padding: 
+}
+
+@keyframes FlagsAnim {
+    from { opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes TabAnim {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 50px;
+    }
+}
+
+/* blog posts */
+#article1WRAP {
+    text-align: center;
+}
+
+#article1 {
+    display: inline-block;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 20px;
+    font-family: opsan;
+}
+
+#P1 {
+    text-align: left;
+}
+
+#FBScum {
+    padding-top: 30px;
+    width: 621px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: opsan;
+}
+
+#P2 {
+    padding-top: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+#compTwitter {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: monsterrat , sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+#compMastodon {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: monsterrat , sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+#LangHoverMessage {
+    font-size: 12px;
+}
+

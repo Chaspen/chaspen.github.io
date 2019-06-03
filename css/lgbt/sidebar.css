@@ -1,0 +1,227 @@
+@font-face {
+    font-family: opsan;
+    src: url("../resource/font/OpenSans-Regular.ttf");
+}
+
+#SBTop {
+    background-color: black;
+    height: 280px;
+}
+
+#sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: #bdc3c7;
+    float: left;
+    position: fixed;
+}
+
+#pfp {
+    border-width: px;
+    display: block;
+    height: 230px;
+    width: auto;
+    border-radius: 300px;
+    border-style: solid;
+    border-color: #bdc3c7;
+    border
+}
+
+#pfpContain {
+    position: absolute;
+    margin-left: 35px;
+    padding-top: 35px;
+}
+
+#halfFill {
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    background-color: #2f3640;
+}
+
+#home {
+    transition: .3s;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: monsterrat;
+}
+
+#home:hover {
+    letter-spacing: 2px;
+}
+
+#blog {
+    transition: .3s;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: monsterrat;
+}
+
+#blog:hover {
+    letter-spacing: 2px;
+}
+
+#radio {
+    transition: .3s;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: monsterrat;
+}
+
+#radio:hover {
+    letter-spacing: 2px;
+}
+
+#addMe {
+    display: flex;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    height: 80px;
+    width: 230px;
+}
+
+#discord {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#discordTag {
+    cursor: pointer;
+    transition: .5s;
+    position: absolute;
+    flex: 1;
+    margin-top: 10px;;
+    margin-bottom: auto;
+    margin-left: 50px;
+    font-family: opsan;
+}
+
+#discordTag:hover {
+    letter-spacing: 1.5px;
+}
+
+#mastodon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#mastodonTag {
+    cursor: pointer;
+    transition: .5s;
+    position: relative;
+    flex: 1;
+    margin-top: 60px;
+    margin-bottom: auto;
+    margin-left: 10px;
+    font-family: opsan;
+    font-size: 14px;
+}
+
+#mastodonTag:hover {
+    letter-spacing: .2px;
+}
+
+#furfag {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#furfagTag {
+    cursor: pointer;
+    transition: .5s;
+    position: absolute;
+    flex: 1;
+    margin-top: 110px;
+    margin-bottom: auto;
+    margin-left: 50px;
+    font-family: opsan;
+    font-size: 15px;
+}
+
+#furfagTag:hover {
+    letter-spacing: 1.5px;
+}
+
+#github {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#githubTag {
+    cursor: pointer;
+    transition: .5s;
+    position: absolute;
+    flex: 1;
+    margin-top: 160px;
+    margin-bottom: auto;
+    margin-left: 50px;
+    font-family: opsan;
+    font-size: 15px;
+}
+
+#githubTag:hover {
+    letter-spacing: 1.5px;
+}
+
+#steam {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#steamTag {
+    cursor: pointer;
+    transition: .5s;
+    position: absolute;
+    flex: 1;
+    margin-top: 210px;
+    margin-bottom: auto;
+    margin-left: 50px;
+    font-family: opsan;
+    font-size: 15px;
+}
+
+#steamTag:hover {
+    letter-spacing: 1.5px
+}
+
+#copyright {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    font-family: opsan;
+}
+
+
+#placehold {
+    
+}

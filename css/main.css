@@ -13,12 +13,13 @@ body {
 #greet {
     object-fit: cover;
     background-image: url(../img/bg.jpg);
-    background-size: 1500px;
+    background-size: 150%;
     background-repeat: no-repeat;
     background-color: #353b48;
     background-blend-mode: multiply;
     color: #ecf0f1;
     height: 700px;
+    width: 100%;
     text-align: center;
     padding-top: 250px;
     font-size: 70px;

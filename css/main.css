@@ -15,7 +15,7 @@ body {
     background-image: url(../img/bg.jpg);
     background-size: 150%;
     background-repeat: no-repeat;
-    background-color: #353b48;
+    background-color: #2f3640;
     background-blend-mode: multiply;
     color: #ecf0f1;
     height: 700px;
@@ -35,10 +35,53 @@ body {
 }
 
 #desc {
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     color: #ecf0f1;
-    padding-top: 150px;
-    padding-left: 40px;
+    padding-top: 100px;
+    padding-left: 10%;
 }
+
+.example-proj {
+    padding-left: 15%;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: #ecf0f1;
+    padding-top: 20px;
+}
+
+.li {
+    margin-bottom: 20px;
+    width: 400px;
+    float: left;
+    cursor: pointer;
+}
+
+#logo {
+    float: left;
+    transform-origin: center;
+    height: 40px;
+}
+
+#abt {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+
+
+#down {
+    color: #ecf0f1;
+    transition: 0.3s;
+}
+
+#down:hover {
+    color: #7f8c8d;
+}
+
+
+
+#down:visited { text-decoration: none; color:red; }
+#down:focus { text-decoration: none; color:yellow; }
+#down:active { text-decoration: none; color:black }

@@ -3,6 +3,34 @@
 body {
     margin: 0;
     height: 90px;
+    /* overflow: hidden; */
+}
+
+#lang-bar {
+    width: 100%;
+    height: 90px;
+    background-color: #2f364080;
+    position: absolute;
+    z-index: 1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+
+
+#flag {
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#lang-wrapper {
+    opacity: 1.5;
+    width: 642px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px
 }
 
 #wrapper {
@@ -31,7 +59,6 @@ body {
     background-color: #2f3640;
     height: 1000px;
     position: relative;
-
 }
 
 #desc {
@@ -39,12 +66,15 @@ body {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     color: #ecf0f1;
+    width: 610px;
     padding-top: 100px;
     padding-left: 10%;
 }
 
 .example-proj {
     padding-left: 15%;
+    width: 600px;
+    height:  300px;
     font-size: 30px;
     font-family: 'Open Sans';
     color: #ecf0f1;
@@ -53,7 +83,8 @@ body {
 
 .li {
     margin-bottom: 20px;
-    width: 400px;
+    width: 250px;
+    margin-right: 100px;
     float: left;
     cursor: pointer;
 }
@@ -76,6 +107,19 @@ body {
     transition: 0.3s;
 }
 
+#down2 {
+    color: #ecf0f1;
+    transition: 0.3s;
+    font-size: 50px;
+    position:absolute;
+    bottom: 1px;
+    left: 1px;
+    margin-left: 46%;
+    padding-bottom: 250px;
+ 
+
+}
+
 #down:hover {
     color: #7f8c8d;
 }
@@ -85,3 +129,36 @@ body {
 #down:visited { text-decoration: none; color:red; }
 #down:focus { text-decoration: none; color:yellow; }
 #down:active { text-decoration: none; color:black }
+
+#down2:visited { text-decoration: none; color:red; }
+#down2:focus { text-decoration: none; color:yellow; }
+#down2:active { text-decoration: none; color:black }
+
+#sect2 {
+    background-color: #2f3640;
+    height: 800px;
+    position: relative;
+}
+
+#desc1 {
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #ecf0f1;
+    padding-top: 100px;
+    padding-left: 10%;
+    width: 600px;;
+}
+
+.skills {
+    height: 250px;
+    width: 450px;
+    margin-left: 10%;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+#slist {
+    width: auto;
+    height: 60px;
+}

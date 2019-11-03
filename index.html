@@ -7,16 +7,31 @@
     <script src="lib/rellax.min.js"></script>
     <!--scripts-->
     <script src="js/smooth.js"></script>
+    <script src="js/changeLang.js"></script>
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </head>
+<meta charset="utf-8"/>
 <body onload="var scroll = new Rellax('.rellax');">
+    <div id='lang-bar'>
+        <div id="lang-wrapper">
+            <img onclick='LangDE();' id='flag' src="img/flag/de.svg">
+            <img onclick='LangES();' id='flag' src="img/flag/es.svg">
+            <img onclick='LangFR();' id='flag' src="img/flag/fr.svg">
+            <img onclick='LangIT();' id='flag' src="img/flag/it.svg">
+            <img onclick='LangNL();' id='flag' src="img/flag/nl.svg">
+            <img onclick='LangPL();' id='flag' src="img/flag/pl.svg">
+            <img onclick='LangPT();' id='flag' src="img/flag/pt.svg">
+            <img onclick='LangRU();' id='flag' src="img/flag/ru.svg">
+        </div>
+    </div>
+    <div id='pull-down-btn'></div>
     <div id=wrapper>
-        <div id='greet' class='rellax' data-rellax-speed="-10"  href="#sect1">Hi<br>I'm Gabriel.<br><a href="#sect1"><ion-icon name="arrow-dropdown" id="down" ></ion-icon></a></div>
+        <div id='greet' class='rellax' data-rellax-speed="-10"  href="#sect1"><a id="hi">Hi<br></a><a id="name">I'm Gabriel</a><br><a href="#sect1"><ion-icon name="arrow-dropdown" id="down" ></ion-icon></a></div>
         <a>hi</a>
         <div id='sect1'>
-            <div id='desc'>I like to experiment with<br> HTML, CSS, and Javascript<br> in my spare time. I also<br> write things in Python and<br> BASH sometimes as well.</div>
+            <div id='desc'>I like to experiment with HTML, CSS, and JavaScript in my spare time. I also write things in Python and BASH sometimes as well.</div>
             <div class='example-proj'>
                 <div class='li' onclick="location.href = 'https://github.com/Chaspen/fur-shmup/';">fur-shmup
                 </div>
@@ -33,6 +48,24 @@
                 <img id='logo' src="img/lang/cpp.svg">
                 <div class='li' onclick="location.href = 'https://github.com/Chaspen/FurVS/';">furVS</div>
                 <img id='logo' src="img/lang/python.svg">
+                <a href="#sect2"><ion-icon name="arrow-dropdown" id="down2" ></ion-icon></a>
+            </div>
+        </div>
+        <div id='sect2'>
+            <div id='desc1'>I don't really know many languages/software, believe it or not, but I do what I can with the little skill I have.</div>
+            <div class='skills'>
+                <img id="slist" src='img/lang/python.svg'>
+                <img id="slist" src='img/lang/html5.svg'>
+                <img id="slist" src='img/lang/css3.svg'>
+                <img id="slist" src='img/lang/js.svg'>
+                <img id="slist" src='img/lang/haxe.svg'>
+                <img id="slist" src='img/lang/linux.svg'>
+                <img id="slist" src='img/lang/lua.svg'>
+                <img id="slist" src='img/lang/jquery.svg'>
+                <img id="slist" src='img/tools/gimp.svg'>
+                <img id="slist" src='img/tools/git.svg'>
+                <img id="slist" src='img/tools/manjaro.svg'>
+                <img id="slist" src='img/lang/go.svg'>
             </div>
         </div>
     </div>

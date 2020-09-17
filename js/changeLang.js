@@ -48,10 +48,10 @@ function LangNL() {
 
 function LangPL() {
     document.documentElement.lang = "pl" ;
-    document.getElementById('hi').innerHTML = 'Witajcie<br>';
-    document.getElementById('name').innerHTML = 'Nazywam się Chloe.';
-    document.getElementById('desc').innerHTML = 'Lubię eksperymentować z HTML, CSS i JavaScript. w wolnym czasie. Ja również pisać rzeczy w Pythonie i.... Czasami również BASH.';
-    document.getElementById('desc1').innerHTML = 'Nie znam tak naprawdę wielu języków/oprogramowania, wierzcie lub nie, ale robię, co mogę z niewielkimi umiejętnościami, które posiadam.';
+    document.getElementById('hi').innerHTML = 'Witaj<br>';
+    document.getElementById('name').innerHTML = 'Jestem Chloe.';
+    document.getElementById('desc').innerHTML = 'W wolnym czasie lubię eksperymentować z HTML-em, CSS-em i JavaScript-em. Lubię także pisać skrypty w Pythonie, a czasem, także w BASHu.';
+    document.getElementById('desc1').innerHTML = 'Nie znam zbyt wiele języków/programów, ale próbuję robić co mogę.';
 }
 
 function LangPT() {

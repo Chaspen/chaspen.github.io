@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     -webkit-align-items: center;
-    background-color: #c44569;
+    background-color: #2d3436;
 }
 .area-right {
     height: 100vh;
@@ -31,17 +31,17 @@ body {
     align-items: center;
     justify-content: center;
     -webkit-align-items: center;
-    background-color: #cf6a87;
+    background-color: #636e72;
 }
 
 #left-wrapper {
     text-align: left;
-    color: #303952;
+    color: #dfe6e9;
 }
 
 a {
     text-decoration: none;
-    color: #303952;
+    color: #dfe6e9;
 }
 
 a:hover {
@@ -59,6 +59,6 @@ a:hover {
 
 #right-wrapper {
     text-align: left;
-    color: #303952;
+    color: #dfe6e9;
 
 }
